@@ -1,0 +1,16 @@
+bin/ 
+.vs/ 
+.vscode/ 
+obj/ 
+***.vsix/ 
+*.suo 
+***.vsix 
+.user 
+.cache 
+.vsidx 
+**.vsidx 
+.vssettings 
+*.accdb 
+*.vbproj 
+*.suo 
+*.bin 

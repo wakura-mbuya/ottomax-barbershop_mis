@@ -22,10 +22,30 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form1"
+        dgvStaff = New DataGridView()
+        CType(dgvStaff, ComponentModel.ISupportInitialize).BeginInit()
+        SuspendLayout()
+        ' 
+        ' dgvStaff
+        ' 
+        dgvStaff.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        dgvStaff.Location = New Point(12, 60)
+        dgvStaff.Name = "dgvStaff"
+        dgvStaff.Size = New Size(776, 268)
+        dgvStaff.TabIndex = 0
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 450)
+        Controls.Add(dgvStaff)
+        Name = "Form1"
+        Text = "Form1"
+        CType(dgvStaff, ComponentModel.ISupportInitialize).EndInit()
+        ResumeLayout(False)
     End Sub
+
+    Friend WithEvents dgvStaff As DataGridView
 
 End Class
