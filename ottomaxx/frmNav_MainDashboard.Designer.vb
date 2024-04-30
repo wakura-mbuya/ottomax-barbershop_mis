@@ -24,70 +24,70 @@ Partial Class frmNav_MainDashboard
     Private Sub InitializeComponent()
         MenuStrip1 = New MenuStrip()
         StaffToolStripMenuItem = New ToolStripMenuItem()
-        AddStaffToolStripMenuItem = New ToolStripMenuItem()
-        StaffAttendanceToolStripMenuItem = New ToolStripMenuItem()
         StaffLunchToolStripMenuItem = New ToolStripMenuItem()
+        ViewLunchExpensesToolStripMenuItem = New ToolStripMenuItem()
+        RecordLunchExpensesToolStripMenuItem = New ToolStripMenuItem()
+        StaffAttendanceToolStripMenuItem = New ToolStripMenuItem()
+        RecordAttendanceToolStripMenuItem = New ToolStripMenuItem()
+        ViewAttendanceRecordToolStripMenuItem = New ToolStripMenuItem()
         ReportsToolStripMenuItem = New ToolStripMenuItem()
-        InventoryToolStripMenuItem = New ToolStripMenuItem()
-        SalesToolStripMenuItem = New ToolStripMenuItem()
-        LoansSavingsToolStripMenuItem = New ToolStripMenuItem()
-        AccountsToolStripMenuItem = New ToolStripMenuItem()
-        SettingsToolStripMenuItem = New ToolStripMenuItem()
         ViewStaffSalesToolStripMenuItem = New ToolStripMenuItem()
-        ViewStaffCommissionsToolStripMenuItem = New ToolStripMenuItem()
         ViewStaffLoansToolStripMenuItem = New ToolStripMenuItem()
         ViewStaffSavingsToolStripMenuItem = New ToolStripMenuItem()
+        ViewStaffCommissionsToolStripMenuItem = New ToolStripMenuItem()
+        AddStaffToolStripMenuItem = New ToolStripMenuItem()
         AddStaffToolStripMenuItem1 = New ToolStripMenuItem()
         EditStaffDetailsToolStripMenuItem = New ToolStripMenuItem()
         DeleteStaffToolStripMenuItem = New ToolStripMenuItem()
-        RecordAttendanceToolStripMenuItem = New ToolStripMenuItem()
-        ViewAttendanceRecordToolStripMenuItem = New ToolStripMenuItem()
-        RecordLunchExpensesToolStripMenuItem = New ToolStripMenuItem()
-        ViewLunchExpensesToolStripMenuItem = New ToolStripMenuItem()
         ViewAllStaffToolStripMenuItem = New ToolStripMenuItem()
+        InventoryToolStripMenuItem = New ToolStripMenuItem()
         StockInToolStripMenuItem = New ToolStripMenuItem()
         ViewInventoryToolStripMenuItem = New ToolStripMenuItem()
+        SalesToolStripMenuItem = New ToolStripMenuItem()
         RecordSallToolStripMenuItem = New ToolStripMenuItem()
         ViewSalesHistoryToolStripMenuItem = New ToolStripMenuItem()
+        TopPerformingStaffToolStripMenuItem = New ToolStripMenuItem()
+        LoansSavingsToolStripMenuItem = New ToolStripMenuItem()
         LoansToolStripMenuItem = New ToolStripMenuItem()
-        SavingsToolStripMenuItem = New ToolStripMenuItem()
-        AddSavingsToolStripMenuItem = New ToolStripMenuItem()
-        WithdrawSavingsToolStripMenuItem = New ToolStripMenuItem()
-        ViewSavingsToolStripMenuItem = New ToolStripMenuItem()
-        RequestLoanToolStripMenuItem = New ToolStripMenuItem()
         RepayLoanToolStripMenuItem = New ToolStripMenuItem()
+        RequestLoanToolStripMenuItem = New ToolStripMenuItem()
         ViewActiveLoansToolStripMenuItem = New ToolStripMenuItem()
         LoanRepaymentHistoryToolStripMenuItem = New ToolStripMenuItem()
-        TopPerformingStaffToolStripMenuItem = New ToolStripMenuItem()
-        ViewPaymentsToolStripMenuItem = New ToolStripMenuItem()
+        SavingsToolStripMenuItem = New ToolStripMenuItem()
+        ViewSavingsToolStripMenuItem = New ToolStripMenuItem()
+        AddSavingsToolStripMenuItem = New ToolStripMenuItem()
+        WithdrawSavingsToolStripMenuItem = New ToolStripMenuItem()
+        AccountsToolStripMenuItem = New ToolStripMenuItem()
         CashboxToolStripMenuItem = New ToolStripMenuItem()
-        UpdateCashboxToolStripMenuItem = New ToolStripMenuItem()
         ViewCashboxHistoryToolStripMenuItem = New ToolStripMenuItem()
-        ServicesToolStripMenuItem = New ToolStripMenuItem()
-        StaffRolesToolStripMenuItem = New ToolStripMenuItem()
+        UpdateCashboxToolStripMenuItem = New ToolStripMenuItem()
+        ViewPaymentsToolStripMenuItem = New ToolStripMenuItem()
+        SettingsToolStripMenuItem = New ToolStripMenuItem()
         ShopsToolStripMenuItem = New ToolStripMenuItem()
-        ShopItemsToolStripMenuItem = New ToolStripMenuItem()
-        SystemUsersToolStripMenuItem = New ToolStripMenuItem()
-        AddServiceToolStripMenuItem = New ToolStripMenuItem()
-        EditServiceToolStripMenuItem = New ToolStripMenuItem()
-        DeleteServiceToolStripMenuItem = New ToolStripMenuItem()
-        ViewAllServicesToolStripMenuItem = New ToolStripMenuItem()
-        AddRoleToolStripMenuItem = New ToolStripMenuItem()
-        EditRoleToolStripMenuItem = New ToolStripMenuItem()
-        DeleteRoleToolStripMenuItem = New ToolStripMenuItem()
-        ViewAllRolesToolStripMenuItem = New ToolStripMenuItem()
         AddShopToolStripMenuItem = New ToolStripMenuItem()
         EditShopToolStripMenuItem = New ToolStripMenuItem()
         DeleteShopToolStripMenuItem = New ToolStripMenuItem()
         ViewAllShopsToolStripMenuItem = New ToolStripMenuItem()
-        AddItemToolStripMenuItem = New ToolStripMenuItem()
-        EditItemToolStripMenuItem = New ToolStripMenuItem()
-        DeleteItemToolStripMenuItem = New ToolStripMenuItem()
-        ViewAllItemsToolStripMenuItem = New ToolStripMenuItem()
+        ServicesToolStripMenuItem = New ToolStripMenuItem()
+        AddServiceToolStripMenuItem = New ToolStripMenuItem()
+        EditServiceToolStripMenuItem = New ToolStripMenuItem()
+        DeleteServiceToolStripMenuItem = New ToolStripMenuItem()
+        ViewAllServicesToolStripMenuItem = New ToolStripMenuItem()
+        StaffRolesToolStripMenuItem = New ToolStripMenuItem()
+        AddRoleToolStripMenuItem = New ToolStripMenuItem()
+        EditRoleToolStripMenuItem = New ToolStripMenuItem()
+        DeleteRoleToolStripMenuItem = New ToolStripMenuItem()
+        ViewAllRolesToolStripMenuItem = New ToolStripMenuItem()
+        SystemUsersToolStripMenuItem = New ToolStripMenuItem()
         AddUserToolStripMenuItem = New ToolStripMenuItem()
         EditUserToolStripMenuItem = New ToolStripMenuItem()
         DeleteUserToolStripMenuItem = New ToolStripMenuItem()
         ViewAllUsersToolStripMenuItem = New ToolStripMenuItem()
+        ShopItemsToolStripMenuItem = New ToolStripMenuItem()
+        AddItemToolStripMenuItem = New ToolStripMenuItem()
+        EditItemToolStripMenuItem = New ToolStripMenuItem()
+        DeleteItemToolStripMenuItem = New ToolStripMenuItem()
+        ViewAllItemsToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -108,22 +108,6 @@ Partial Class frmNav_MainDashboard
         StaffToolStripMenuItem.Size = New Size(52, 20)
         StaffToolStripMenuItem.Text = "Staff"
         ' 
-        ' AddStaffToolStripMenuItem
-        ' 
-        AddStaffToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddStaffToolStripMenuItem1, EditStaffDetailsToolStripMenuItem, DeleteStaffToolStripMenuItem, ViewAllStaffToolStripMenuItem})
-        AddStaffToolStripMenuItem.Font = New Font("Verdana", 9.75F)
-        AddStaffToolStripMenuItem.Name = "AddStaffToolStripMenuItem"
-        AddStaffToolStripMenuItem.Size = New Size(196, 22)
-        AddStaffToolStripMenuItem.Text = "Staff Management"
-        ' 
-        ' StaffAttendanceToolStripMenuItem
-        ' 
-        StaffAttendanceToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {RecordAttendanceToolStripMenuItem, ViewAttendanceRecordToolStripMenuItem})
-        StaffAttendanceToolStripMenuItem.Font = New Font("Verdana", 9.75F)
-        StaffAttendanceToolStripMenuItem.Name = "StaffAttendanceToolStripMenuItem"
-        StaffAttendanceToolStripMenuItem.Size = New Size(196, 22)
-        StaffAttendanceToolStripMenuItem.Text = "Attendance"
-        ' 
         ' StaffLunchToolStripMenuItem
         ' 
         StaffLunchToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewLunchExpensesToolStripMenuItem, RecordLunchExpensesToolStripMenuItem})
@@ -132,95 +116,25 @@ Partial Class frmNav_MainDashboard
         StaffLunchToolStripMenuItem.Size = New Size(196, 22)
         StaffLunchToolStripMenuItem.Text = "Lunch"
         ' 
-        ' ReportsToolStripMenuItem
+        ' ViewLunchExpensesToolStripMenuItem
         ' 
-        ReportsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewStaffSalesToolStripMenuItem, ViewStaffLoansToolStripMenuItem, ViewStaffSavingsToolStripMenuItem, ViewStaffCommissionsToolStripMenuItem})
-        ReportsToolStripMenuItem.Font = New Font("Verdana", 9.75F)
-        ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
-        ReportsToolStripMenuItem.Size = New Size(196, 22)
-        ReportsToolStripMenuItem.Text = "Staff Reports"
+        ViewLunchExpensesToolStripMenuItem.Name = "ViewLunchExpensesToolStripMenuItem"
+        ViewLunchExpensesToolStripMenuItem.Size = New Size(229, 22)
+        ViewLunchExpensesToolStripMenuItem.Text = "View Lunch Expenses"
         ' 
-        ' InventoryToolStripMenuItem
+        ' RecordLunchExpensesToolStripMenuItem
         ' 
-        InventoryToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {StockInToolStripMenuItem, ViewInventoryToolStripMenuItem})
-        InventoryToolStripMenuItem.Font = New Font("Verdana", 9.75F)
-        InventoryToolStripMenuItem.Name = "InventoryToolStripMenuItem"
-        InventoryToolStripMenuItem.Size = New Size(83, 20)
-        InventoryToolStripMenuItem.Text = "Inventory"
+        RecordLunchExpensesToolStripMenuItem.Name = "RecordLunchExpensesToolStripMenuItem"
+        RecordLunchExpensesToolStripMenuItem.Size = New Size(229, 22)
+        RecordLunchExpensesToolStripMenuItem.Text = "Record Lunch Expenses"
         ' 
-        ' SalesToolStripMenuItem
+        ' StaffAttendanceToolStripMenuItem
         ' 
-        SalesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {RecordSallToolStripMenuItem, ViewSalesHistoryToolStripMenuItem, TopPerformingStaffToolStripMenuItem})
-        SalesToolStripMenuItem.Font = New Font("Verdana", 9.75F)
-        SalesToolStripMenuItem.Name = "SalesToolStripMenuItem"
-        SalesToolStripMenuItem.Size = New Size(54, 20)
-        SalesToolStripMenuItem.Text = "Sales"
-        ' 
-        ' LoansSavingsToolStripMenuItem
-        ' 
-        LoansSavingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {LoansToolStripMenuItem, SavingsToolStripMenuItem})
-        LoansSavingsToolStripMenuItem.Font = New Font("Verdana", 9.75F)
-        LoansSavingsToolStripMenuItem.Name = "LoansSavingsToolStripMenuItem"
-        LoansSavingsToolStripMenuItem.Size = New Size(142, 20)
-        LoansSavingsToolStripMenuItem.Text = "Loans and Savings"
-        ' 
-        ' AccountsToolStripMenuItem
-        ' 
-        AccountsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {CashboxToolStripMenuItem, ViewPaymentsToolStripMenuItem})
-        AccountsToolStripMenuItem.Font = New Font("Verdana", 9.75F)
-        AccountsToolStripMenuItem.Name = "AccountsToolStripMenuItem"
-        AccountsToolStripMenuItem.Size = New Size(81, 20)
-        AccountsToolStripMenuItem.Text = "Accounts"
-        ' 
-        ' SettingsToolStripMenuItem
-        ' 
-        SettingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ShopsToolStripMenuItem, ServicesToolStripMenuItem, StaffRolesToolStripMenuItem, SystemUsersToolStripMenuItem, ShopItemsToolStripMenuItem})
-        SettingsToolStripMenuItem.Font = New Font("Verdana", 9.75F)
-        SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
-        SettingsToolStripMenuItem.Size = New Size(74, 20)
-        SettingsToolStripMenuItem.Text = "Settings"
-        ' 
-        ' ViewStaffSalesToolStripMenuItem
-        ' 
-        ViewStaffSalesToolStripMenuItem.Name = "ViewStaffSalesToolStripMenuItem"
-        ViewStaffSalesToolStripMenuItem.Size = New Size(201, 22)
-        ViewStaffSalesToolStripMenuItem.Text = "Sales"
-        ' 
-        ' ViewStaffCommissionsToolStripMenuItem
-        ' 
-        ViewStaffCommissionsToolStripMenuItem.Name = "ViewStaffCommissionsToolStripMenuItem"
-        ViewStaffCommissionsToolStripMenuItem.Size = New Size(201, 22)
-        ViewStaffCommissionsToolStripMenuItem.Text = "Commission Earned"
-        ' 
-        ' ViewStaffLoansToolStripMenuItem
-        ' 
-        ViewStaffLoansToolStripMenuItem.Name = "ViewStaffLoansToolStripMenuItem"
-        ViewStaffLoansToolStripMenuItem.Size = New Size(201, 22)
-        ViewStaffLoansToolStripMenuItem.Text = "Loans"
-        ' 
-        ' ViewStaffSavingsToolStripMenuItem
-        ' 
-        ViewStaffSavingsToolStripMenuItem.Name = "ViewStaffSavingsToolStripMenuItem"
-        ViewStaffSavingsToolStripMenuItem.Size = New Size(201, 22)
-        ViewStaffSavingsToolStripMenuItem.Text = "Savings"
-        ' 
-        ' AddStaffToolStripMenuItem1
-        ' 
-        AddStaffToolStripMenuItem1.Name = "AddStaffToolStripMenuItem1"
-        AddStaffToolStripMenuItem1.Size = New Size(180, 22)
-        AddStaffToolStripMenuItem1.Text = "Add Staff"
-        ' 
-        ' EditStaffDetailsToolStripMenuItem
-        ' 
-        EditStaffDetailsToolStripMenuItem.Name = "EditStaffDetailsToolStripMenuItem"
-        EditStaffDetailsToolStripMenuItem.Size = New Size(180, 22)
-        EditStaffDetailsToolStripMenuItem.Text = "Edit Staff"
-        ' 
-        ' DeleteStaffToolStripMenuItem
-        ' 
-        DeleteStaffToolStripMenuItem.Name = "DeleteStaffToolStripMenuItem"
-        DeleteStaffToolStripMenuItem.Size = New Size(180, 22)
-        DeleteStaffToolStripMenuItem.Text = "Delete Staff"
+        StaffAttendanceToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {RecordAttendanceToolStripMenuItem, ViewAttendanceRecordToolStripMenuItem})
+        StaffAttendanceToolStripMenuItem.Font = New Font("Verdana", 9.75F)
+        StaffAttendanceToolStripMenuItem.Name = "StaffAttendanceToolStripMenuItem"
+        StaffAttendanceToolStripMenuItem.Size = New Size(196, 22)
+        StaffAttendanceToolStripMenuItem.Text = "Attendance"
         ' 
         ' RecordAttendanceToolStripMenuItem
         ' 
@@ -234,91 +148,142 @@ Partial Class frmNav_MainDashboard
         ViewAttendanceRecordToolStripMenuItem.Size = New Size(237, 22)
         ViewAttendanceRecordToolStripMenuItem.Text = "View Attendance Record"
         ' 
-        ' RecordLunchExpensesToolStripMenuItem
+        ' ReportsToolStripMenuItem
         ' 
-        RecordLunchExpensesToolStripMenuItem.Name = "RecordLunchExpensesToolStripMenuItem"
-        RecordLunchExpensesToolStripMenuItem.Size = New Size(229, 22)
-        RecordLunchExpensesToolStripMenuItem.Text = "Record Lunch Expenses"
+        ReportsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewStaffSalesToolStripMenuItem, ViewStaffLoansToolStripMenuItem, ViewStaffSavingsToolStripMenuItem, ViewStaffCommissionsToolStripMenuItem})
+        ReportsToolStripMenuItem.Font = New Font("Verdana", 9.75F)
+        ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
+        ReportsToolStripMenuItem.Size = New Size(196, 22)
+        ReportsToolStripMenuItem.Text = "Staff Reports"
         ' 
-        ' ViewLunchExpensesToolStripMenuItem
+        ' ViewStaffSalesToolStripMenuItem
         ' 
-        ViewLunchExpensesToolStripMenuItem.Name = "ViewLunchExpensesToolStripMenuItem"
-        ViewLunchExpensesToolStripMenuItem.Size = New Size(229, 22)
-        ViewLunchExpensesToolStripMenuItem.Text = "View Lunch Expenses"
+        ViewStaffSalesToolStripMenuItem.Name = "ViewStaffSalesToolStripMenuItem"
+        ViewStaffSalesToolStripMenuItem.Size = New Size(199, 22)
+        ViewStaffSalesToolStripMenuItem.Text = "Sales"
+        ' 
+        ' ViewStaffLoansToolStripMenuItem
+        ' 
+        ViewStaffLoansToolStripMenuItem.Name = "ViewStaffLoansToolStripMenuItem"
+        ViewStaffLoansToolStripMenuItem.Size = New Size(199, 22)
+        ViewStaffLoansToolStripMenuItem.Text = "Loans"
+        ' 
+        ' ViewStaffSavingsToolStripMenuItem
+        ' 
+        ViewStaffSavingsToolStripMenuItem.Name = "ViewStaffSavingsToolStripMenuItem"
+        ViewStaffSavingsToolStripMenuItem.Size = New Size(199, 22)
+        ViewStaffSavingsToolStripMenuItem.Text = "Savings"
+        ' 
+        ' ViewStaffCommissionsToolStripMenuItem
+        ' 
+        ViewStaffCommissionsToolStripMenuItem.Name = "ViewStaffCommissionsToolStripMenuItem"
+        ViewStaffCommissionsToolStripMenuItem.Size = New Size(199, 22)
+        ViewStaffCommissionsToolStripMenuItem.Text = "Commission Earned"
+        ' 
+        ' AddStaffToolStripMenuItem
+        ' 
+        AddStaffToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddStaffToolStripMenuItem1, EditStaffDetailsToolStripMenuItem, DeleteStaffToolStripMenuItem, ViewAllStaffToolStripMenuItem})
+        AddStaffToolStripMenuItem.Font = New Font("Verdana", 9.75F)
+        AddStaffToolStripMenuItem.Name = "AddStaffToolStripMenuItem"
+        AddStaffToolStripMenuItem.Size = New Size(196, 22)
+        AddStaffToolStripMenuItem.Text = "Staff Management"
+        ' 
+        ' AddStaffToolStripMenuItem1
+        ' 
+        AddStaffToolStripMenuItem1.Name = "AddStaffToolStripMenuItem1"
+        AddStaffToolStripMenuItem1.Size = New Size(163, 22)
+        AddStaffToolStripMenuItem1.Text = "Add Staff"
+        ' 
+        ' EditStaffDetailsToolStripMenuItem
+        ' 
+        EditStaffDetailsToolStripMenuItem.Name = "EditStaffDetailsToolStripMenuItem"
+        EditStaffDetailsToolStripMenuItem.Size = New Size(163, 22)
+        EditStaffDetailsToolStripMenuItem.Text = "Edit Staff"
+        ' 
+        ' DeleteStaffToolStripMenuItem
+        ' 
+        DeleteStaffToolStripMenuItem.Name = "DeleteStaffToolStripMenuItem"
+        DeleteStaffToolStripMenuItem.Size = New Size(163, 22)
+        DeleteStaffToolStripMenuItem.Text = "Delete Staff"
         ' 
         ' ViewAllStaffToolStripMenuItem
         ' 
         ViewAllStaffToolStripMenuItem.Name = "ViewAllStaffToolStripMenuItem"
-        ViewAllStaffToolStripMenuItem.Size = New Size(180, 22)
+        ViewAllStaffToolStripMenuItem.Size = New Size(163, 22)
         ViewAllStaffToolStripMenuItem.Text = "View All Staff"
+        ' 
+        ' InventoryToolStripMenuItem
+        ' 
+        InventoryToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {StockInToolStripMenuItem, ViewInventoryToolStripMenuItem})
+        InventoryToolStripMenuItem.Font = New Font("Verdana", 9.75F)
+        InventoryToolStripMenuItem.Name = "InventoryToolStripMenuItem"
+        InventoryToolStripMenuItem.Size = New Size(83, 20)
+        InventoryToolStripMenuItem.Text = "Inventory"
         ' 
         ' StockInToolStripMenuItem
         ' 
         StockInToolStripMenuItem.Name = "StockInToolStripMenuItem"
-        StockInToolStripMenuItem.Size = New Size(180, 22)
+        StockInToolStripMenuItem.Size = New Size(174, 22)
         StockInToolStripMenuItem.Text = "Stock In"
         ' 
         ' ViewInventoryToolStripMenuItem
         ' 
         ViewInventoryToolStripMenuItem.Name = "ViewInventoryToolStripMenuItem"
-        ViewInventoryToolStripMenuItem.Size = New Size(180, 22)
+        ViewInventoryToolStripMenuItem.Size = New Size(174, 22)
         ViewInventoryToolStripMenuItem.Text = "View Inventory"
+        ' 
+        ' SalesToolStripMenuItem
+        ' 
+        SalesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {RecordSallToolStripMenuItem, ViewSalesHistoryToolStripMenuItem, TopPerformingStaffToolStripMenuItem})
+        SalesToolStripMenuItem.Font = New Font("Verdana", 9.75F)
+        SalesToolStripMenuItem.Name = "SalesToolStripMenuItem"
+        SalesToolStripMenuItem.Size = New Size(54, 20)
+        SalesToolStripMenuItem.Text = "Sales"
         ' 
         ' RecordSallToolStripMenuItem
         ' 
         RecordSallToolStripMenuItem.Name = "RecordSallToolStripMenuItem"
-        RecordSallToolStripMenuItem.Size = New Size(196, 22)
+        RecordSallToolStripMenuItem.Size = New Size(210, 22)
         RecordSallToolStripMenuItem.Text = "Record Sale"
         ' 
         ' ViewSalesHistoryToolStripMenuItem
         ' 
         ViewSalesHistoryToolStripMenuItem.Name = "ViewSalesHistoryToolStripMenuItem"
-        ViewSalesHistoryToolStripMenuItem.Size = New Size(196, 22)
+        ViewSalesHistoryToolStripMenuItem.Size = New Size(210, 22)
         ViewSalesHistoryToolStripMenuItem.Text = "View Sales History"
+        ' 
+        ' TopPerformingStaffToolStripMenuItem
+        ' 
+        TopPerformingStaffToolStripMenuItem.Name = "TopPerformingStaffToolStripMenuItem"
+        TopPerformingStaffToolStripMenuItem.Size = New Size(210, 22)
+        TopPerformingStaffToolStripMenuItem.Text = "Top Performing Staff"
+        ' 
+        ' LoansSavingsToolStripMenuItem
+        ' 
+        LoansSavingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {LoansToolStripMenuItem, SavingsToolStripMenuItem})
+        LoansSavingsToolStripMenuItem.Font = New Font("Verdana", 9.75F)
+        LoansSavingsToolStripMenuItem.Name = "LoansSavingsToolStripMenuItem"
+        LoansSavingsToolStripMenuItem.Size = New Size(142, 20)
+        LoansSavingsToolStripMenuItem.Text = "Loans and Savings"
         ' 
         ' LoansToolStripMenuItem
         ' 
         LoansToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {RepayLoanToolStripMenuItem, RequestLoanToolStripMenuItem, ViewActiveLoansToolStripMenuItem, LoanRepaymentHistoryToolStripMenuItem})
         LoansToolStripMenuItem.Name = "LoansToolStripMenuItem"
-        LoansToolStripMenuItem.Size = New Size(180, 22)
+        LoansToolStripMenuItem.Size = New Size(125, 22)
         LoansToolStripMenuItem.Text = "Loans"
-        ' 
-        ' SavingsToolStripMenuItem
-        ' 
-        SavingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewSavingsToolStripMenuItem, AddSavingsToolStripMenuItem, WithdrawSavingsToolStripMenuItem})
-        SavingsToolStripMenuItem.Name = "SavingsToolStripMenuItem"
-        SavingsToolStripMenuItem.Size = New Size(180, 22)
-        SavingsToolStripMenuItem.Text = "Savings"
-        ' 
-        ' AddSavingsToolStripMenuItem
-        ' 
-        AddSavingsToolStripMenuItem.Name = "AddSavingsToolStripMenuItem"
-        AddSavingsToolStripMenuItem.Size = New Size(192, 22)
-        AddSavingsToolStripMenuItem.Text = "Deposit Savings"
-        ' 
-        ' WithdrawSavingsToolStripMenuItem
-        ' 
-        WithdrawSavingsToolStripMenuItem.Name = "WithdrawSavingsToolStripMenuItem"
-        WithdrawSavingsToolStripMenuItem.Size = New Size(192, 22)
-        WithdrawSavingsToolStripMenuItem.Text = "Withdraw Savings"
-        ' 
-        ' ViewSavingsToolStripMenuItem
-        ' 
-        ViewSavingsToolStripMenuItem.Name = "ViewSavingsToolStripMenuItem"
-        ViewSavingsToolStripMenuItem.Size = New Size(192, 22)
-        ViewSavingsToolStripMenuItem.Text = "View Savings"
-        ' 
-        ' RequestLoanToolStripMenuItem
-        ' 
-        RequestLoanToolStripMenuItem.Name = "RequestLoanToolStripMenuItem"
-        RequestLoanToolStripMenuItem.Size = New Size(234, 22)
-        RequestLoanToolStripMenuItem.Text = "Request Loan"
         ' 
         ' RepayLoanToolStripMenuItem
         ' 
         RepayLoanToolStripMenuItem.Name = "RepayLoanToolStripMenuItem"
         RepayLoanToolStripMenuItem.Size = New Size(234, 22)
         RepayLoanToolStripMenuItem.Text = "Repay Loan"
+        ' 
+        ' RequestLoanToolStripMenuItem
+        ' 
+        RequestLoanToolStripMenuItem.Name = "RequestLoanToolStripMenuItem"
+        RequestLoanToolStripMenuItem.Size = New Size(234, 22)
+        RequestLoanToolStripMenuItem.Text = "Request Loan"
         ' 
         ' ViewActiveLoansToolStripMenuItem
         ' 
@@ -332,17 +297,38 @@ Partial Class frmNav_MainDashboard
         LoanRepaymentHistoryToolStripMenuItem.Size = New Size(234, 22)
         LoanRepaymentHistoryToolStripMenuItem.Text = "Loan Repayment History"
         ' 
-        ' TopPerformingStaffToolStripMenuItem
+        ' SavingsToolStripMenuItem
         ' 
-        TopPerformingStaffToolStripMenuItem.Name = "TopPerformingStaffToolStripMenuItem"
-        TopPerformingStaffToolStripMenuItem.Size = New Size(210, 22)
-        TopPerformingStaffToolStripMenuItem.Text = "Top Performing Staff"
+        SavingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewSavingsToolStripMenuItem, AddSavingsToolStripMenuItem, WithdrawSavingsToolStripMenuItem})
+        SavingsToolStripMenuItem.Name = "SavingsToolStripMenuItem"
+        SavingsToolStripMenuItem.Size = New Size(125, 22)
+        SavingsToolStripMenuItem.Text = "Savings"
         ' 
-        ' ViewPaymentsToolStripMenuItem
+        ' ViewSavingsToolStripMenuItem
         ' 
-        ViewPaymentsToolStripMenuItem.Name = "ViewPaymentsToolStripMenuItem"
-        ViewPaymentsToolStripMenuItem.Size = New Size(180, 22)
-        ViewPaymentsToolStripMenuItem.Text = "View Payments"
+        ViewSavingsToolStripMenuItem.Name = "ViewSavingsToolStripMenuItem"
+        ViewSavingsToolStripMenuItem.Size = New Size(192, 22)
+        ViewSavingsToolStripMenuItem.Text = "View Savings"
+        ' 
+        ' AddSavingsToolStripMenuItem
+        ' 
+        AddSavingsToolStripMenuItem.Name = "AddSavingsToolStripMenuItem"
+        AddSavingsToolStripMenuItem.Size = New Size(192, 22)
+        AddSavingsToolStripMenuItem.Text = "Deposit Savings"
+        ' 
+        ' WithdrawSavingsToolStripMenuItem
+        ' 
+        WithdrawSavingsToolStripMenuItem.Name = "WithdrawSavingsToolStripMenuItem"
+        WithdrawSavingsToolStripMenuItem.Size = New Size(192, 22)
+        WithdrawSavingsToolStripMenuItem.Text = "Withdraw Savings"
+        ' 
+        ' AccountsToolStripMenuItem
+        ' 
+        AccountsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {CashboxToolStripMenuItem, ViewPaymentsToolStripMenuItem})
+        AccountsToolStripMenuItem.Font = New Font("Verdana", 9.75F)
+        AccountsToolStripMenuItem.Name = "AccountsToolStripMenuItem"
+        AccountsToolStripMenuItem.Size = New Size(81, 20)
+        AccountsToolStripMenuItem.Text = "Accounts"
         ' 
         ' CashboxToolStripMenuItem
         ' 
@@ -351,100 +337,38 @@ Partial Class frmNav_MainDashboard
         CashboxToolStripMenuItem.Size = New Size(174, 22)
         CashboxToolStripMenuItem.Text = "Cashbox"
         ' 
-        ' UpdateCashboxToolStripMenuItem
-        ' 
-        UpdateCashboxToolStripMenuItem.Name = "UpdateCashboxToolStripMenuItem"
-        UpdateCashboxToolStripMenuItem.Size = New Size(181, 22)
-        UpdateCashboxToolStripMenuItem.Text = "Update Cashbox"
-        ' 
         ' ViewCashboxHistoryToolStripMenuItem
         ' 
         ViewCashboxHistoryToolStripMenuItem.Name = "ViewCashboxHistoryToolStripMenuItem"
         ViewCashboxHistoryToolStripMenuItem.Size = New Size(181, 22)
         ViewCashboxHistoryToolStripMenuItem.Text = "Cashbox History"
         ' 
-        ' ServicesToolStripMenuItem
+        ' UpdateCashboxToolStripMenuItem
         ' 
-        ServicesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddServiceToolStripMenuItem, EditServiceToolStripMenuItem, DeleteServiceToolStripMenuItem, ViewAllServicesToolStripMenuItem})
-        ServicesToolStripMenuItem.Name = "ServicesToolStripMenuItem"
-        ServicesToolStripMenuItem.Size = New Size(180, 22)
-        ServicesToolStripMenuItem.Text = "Services"
+        UpdateCashboxToolStripMenuItem.Name = "UpdateCashboxToolStripMenuItem"
+        UpdateCashboxToolStripMenuItem.Size = New Size(181, 22)
+        UpdateCashboxToolStripMenuItem.Text = "Update Cashbox"
         ' 
-        ' StaffRolesToolStripMenuItem
+        ' ViewPaymentsToolStripMenuItem
         ' 
-        StaffRolesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddRoleToolStripMenuItem, EditRoleToolStripMenuItem, DeleteRoleToolStripMenuItem, ViewAllRolesToolStripMenuItem})
-        StaffRolesToolStripMenuItem.Name = "StaffRolesToolStripMenuItem"
-        StaffRolesToolStripMenuItem.Size = New Size(180, 22)
-        StaffRolesToolStripMenuItem.Text = "Staff Roles"
+        ViewPaymentsToolStripMenuItem.Name = "ViewPaymentsToolStripMenuItem"
+        ViewPaymentsToolStripMenuItem.Size = New Size(174, 22)
+        ViewPaymentsToolStripMenuItem.Text = "View Payments"
+        ' 
+        ' SettingsToolStripMenuItem
+        ' 
+        SettingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ShopsToolStripMenuItem, ServicesToolStripMenuItem, StaffRolesToolStripMenuItem, SystemUsersToolStripMenuItem, ShopItemsToolStripMenuItem})
+        SettingsToolStripMenuItem.Font = New Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
+        SettingsToolStripMenuItem.Size = New Size(74, 20)
+        SettingsToolStripMenuItem.Text = "Settings"
         ' 
         ' ShopsToolStripMenuItem
         ' 
         ShopsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddShopToolStripMenuItem, EditShopToolStripMenuItem, DeleteShopToolStripMenuItem, ViewAllShopsToolStripMenuItem})
         ShopsToolStripMenuItem.Name = "ShopsToolStripMenuItem"
-        ShopsToolStripMenuItem.Size = New Size(180, 22)
+        ShopsToolStripMenuItem.Size = New Size(258, 22)
         ShopsToolStripMenuItem.Text = "Shops"
-        ' 
-        ' ShopItemsToolStripMenuItem
-        ' 
-        ShopItemsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddItemToolStripMenuItem, EditItemToolStripMenuItem, DeleteItemToolStripMenuItem, ViewAllItemsToolStripMenuItem})
-        ShopItemsToolStripMenuItem.Name = "ShopItemsToolStripMenuItem"
-        ShopItemsToolStripMenuItem.Size = New Size(258, 22)
-        ShopItemsToolStripMenuItem.Text = "Shop Items and Equipments"
-        ' 
-        ' SystemUsersToolStripMenuItem
-        ' 
-        SystemUsersToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddUserToolStripMenuItem, EditUserToolStripMenuItem, DeleteUserToolStripMenuItem, ViewAllUsersToolStripMenuItem})
-        SystemUsersToolStripMenuItem.Name = "SystemUsersToolStripMenuItem"
-        SystemUsersToolStripMenuItem.Size = New Size(258, 22)
-        SystemUsersToolStripMenuItem.Text = "System Users"
-        ' 
-        ' AddServiceToolStripMenuItem
-        ' 
-        AddServiceToolStripMenuItem.Name = "AddServiceToolStripMenuItem"
-        AddServiceToolStripMenuItem.Size = New Size(186, 22)
-        AddServiceToolStripMenuItem.Text = "Add Service"
-        ' 
-        ' EditServiceToolStripMenuItem
-        ' 
-        EditServiceToolStripMenuItem.Name = "EditServiceToolStripMenuItem"
-        EditServiceToolStripMenuItem.Size = New Size(186, 22)
-        EditServiceToolStripMenuItem.Text = "Edit Service"
-        ' 
-        ' DeleteServiceToolStripMenuItem
-        ' 
-        DeleteServiceToolStripMenuItem.Name = "DeleteServiceToolStripMenuItem"
-        DeleteServiceToolStripMenuItem.Size = New Size(186, 22)
-        DeleteServiceToolStripMenuItem.Text = "Delete Service"
-        ' 
-        ' ViewAllServicesToolStripMenuItem
-        ' 
-        ViewAllServicesToolStripMenuItem.Name = "ViewAllServicesToolStripMenuItem"
-        ViewAllServicesToolStripMenuItem.Size = New Size(186, 22)
-        ViewAllServicesToolStripMenuItem.Text = "View All Services"
-        ' 
-        ' AddRoleToolStripMenuItem
-        ' 
-        AddRoleToolStripMenuItem.Name = "AddRoleToolStripMenuItem"
-        AddRoleToolStripMenuItem.Size = New Size(180, 22)
-        AddRoleToolStripMenuItem.Text = "Add Role"
-        ' 
-        ' EditRoleToolStripMenuItem
-        ' 
-        EditRoleToolStripMenuItem.Name = "EditRoleToolStripMenuItem"
-        EditRoleToolStripMenuItem.Size = New Size(180, 22)
-        EditRoleToolStripMenuItem.Text = "Edit Role"
-        ' 
-        ' DeleteRoleToolStripMenuItem
-        ' 
-        DeleteRoleToolStripMenuItem.Name = "DeleteRoleToolStripMenuItem"
-        DeleteRoleToolStripMenuItem.Size = New Size(180, 22)
-        DeleteRoleToolStripMenuItem.Text = "Delete Role"
-        ' 
-        ' ViewAllRolesToolStripMenuItem
-        ' 
-        ViewAllRolesToolStripMenuItem.Name = "ViewAllRolesToolStripMenuItem"
-        ViewAllRolesToolStripMenuItem.Size = New Size(180, 22)
-        ViewAllRolesToolStripMenuItem.Text = "View All Roles"
         ' 
         ' AddShopToolStripMenuItem
         ' 
@@ -470,53 +394,129 @@ Partial Class frmNav_MainDashboard
         ViewAllShopsToolStripMenuItem.Size = New Size(180, 22)
         ViewAllShopsToolStripMenuItem.Text = "View All Shops"
         ' 
-        ' AddItemToolStripMenuItem
+        ' ServicesToolStripMenuItem
         ' 
-        AddItemToolStripMenuItem.Name = "AddItemToolStripMenuItem"
-        AddItemToolStripMenuItem.Size = New Size(180, 22)
-        AddItemToolStripMenuItem.Text = "Add Item"
+        ServicesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddServiceToolStripMenuItem, EditServiceToolStripMenuItem, DeleteServiceToolStripMenuItem, ViewAllServicesToolStripMenuItem})
+        ServicesToolStripMenuItem.Name = "ServicesToolStripMenuItem"
+        ServicesToolStripMenuItem.Size = New Size(258, 22)
+        ServicesToolStripMenuItem.Text = "Services"
         ' 
-        ' EditItemToolStripMenuItem
+        ' AddServiceToolStripMenuItem
         ' 
-        EditItemToolStripMenuItem.Name = "EditItemToolStripMenuItem"
-        EditItemToolStripMenuItem.Size = New Size(180, 22)
-        EditItemToolStripMenuItem.Text = "Edit Item"
+        AddServiceToolStripMenuItem.Name = "AddServiceToolStripMenuItem"
+        AddServiceToolStripMenuItem.Size = New Size(186, 22)
+        AddServiceToolStripMenuItem.Text = "Add Service"
         ' 
-        ' DeleteItemToolStripMenuItem
+        ' EditServiceToolStripMenuItem
         ' 
-        DeleteItemToolStripMenuItem.Name = "DeleteItemToolStripMenuItem"
-        DeleteItemToolStripMenuItem.Size = New Size(180, 22)
-        DeleteItemToolStripMenuItem.Text = "Delete Item"
+        EditServiceToolStripMenuItem.Name = "EditServiceToolStripMenuItem"
+        EditServiceToolStripMenuItem.Size = New Size(186, 22)
+        EditServiceToolStripMenuItem.Text = "Edit Service"
         ' 
-        ' ViewAllItemsToolStripMenuItem
+        ' DeleteServiceToolStripMenuItem
         ' 
-        ViewAllItemsToolStripMenuItem.Name = "ViewAllItemsToolStripMenuItem"
-        ViewAllItemsToolStripMenuItem.Size = New Size(180, 22)
-        ViewAllItemsToolStripMenuItem.Text = "View All Items"
+        DeleteServiceToolStripMenuItem.Name = "DeleteServiceToolStripMenuItem"
+        DeleteServiceToolStripMenuItem.Size = New Size(186, 22)
+        DeleteServiceToolStripMenuItem.Text = "Delete Service"
+        ' 
+        ' ViewAllServicesToolStripMenuItem
+        ' 
+        ViewAllServicesToolStripMenuItem.Name = "ViewAllServicesToolStripMenuItem"
+        ViewAllServicesToolStripMenuItem.Size = New Size(186, 22)
+        ViewAllServicesToolStripMenuItem.Text = "View All Services"
+        ' 
+        ' StaffRolesToolStripMenuItem
+        ' 
+        StaffRolesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddRoleToolStripMenuItem, EditRoleToolStripMenuItem, DeleteRoleToolStripMenuItem, ViewAllRolesToolStripMenuItem})
+        StaffRolesToolStripMenuItem.Name = "StaffRolesToolStripMenuItem"
+        StaffRolesToolStripMenuItem.Size = New Size(258, 22)
+        StaffRolesToolStripMenuItem.Text = "Staff Roles"
+        ' 
+        ' AddRoleToolStripMenuItem
+        ' 
+        AddRoleToolStripMenuItem.Name = "AddRoleToolStripMenuItem"
+        AddRoleToolStripMenuItem.Size = New Size(164, 22)
+        AddRoleToolStripMenuItem.Text = "Add Role"
+        ' 
+        ' EditRoleToolStripMenuItem
+        ' 
+        EditRoleToolStripMenuItem.Name = "EditRoleToolStripMenuItem"
+        EditRoleToolStripMenuItem.Size = New Size(164, 22)
+        EditRoleToolStripMenuItem.Text = "Edit Role"
+        ' 
+        ' DeleteRoleToolStripMenuItem
+        ' 
+        DeleteRoleToolStripMenuItem.Name = "DeleteRoleToolStripMenuItem"
+        DeleteRoleToolStripMenuItem.Size = New Size(164, 22)
+        DeleteRoleToolStripMenuItem.Text = "Delete Role"
+        ' 
+        ' ViewAllRolesToolStripMenuItem
+        ' 
+        ViewAllRolesToolStripMenuItem.Name = "ViewAllRolesToolStripMenuItem"
+        ViewAllRolesToolStripMenuItem.Size = New Size(164, 22)
+        ViewAllRolesToolStripMenuItem.Text = "View All Roles"
+        ' 
+        ' SystemUsersToolStripMenuItem
+        ' 
+        SystemUsersToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddUserToolStripMenuItem, EditUserToolStripMenuItem, DeleteUserToolStripMenuItem, ViewAllUsersToolStripMenuItem})
+        SystemUsersToolStripMenuItem.Name = "SystemUsersToolStripMenuItem"
+        SystemUsersToolStripMenuItem.Size = New Size(258, 22)
+        SystemUsersToolStripMenuItem.Text = "System Users"
         ' 
         ' AddUserToolStripMenuItem
         ' 
         AddUserToolStripMenuItem.Name = "AddUserToolStripMenuItem"
-        AddUserToolStripMenuItem.Size = New Size(180, 22)
+        AddUserToolStripMenuItem.Size = New Size(166, 22)
         AddUserToolStripMenuItem.Text = "Add User"
         ' 
         ' EditUserToolStripMenuItem
         ' 
         EditUserToolStripMenuItem.Name = "EditUserToolStripMenuItem"
-        EditUserToolStripMenuItem.Size = New Size(180, 22)
+        EditUserToolStripMenuItem.Size = New Size(166, 22)
         EditUserToolStripMenuItem.Text = "Edit User"
         ' 
         ' DeleteUserToolStripMenuItem
         ' 
         DeleteUserToolStripMenuItem.Name = "DeleteUserToolStripMenuItem"
-        DeleteUserToolStripMenuItem.Size = New Size(180, 22)
+        DeleteUserToolStripMenuItem.Size = New Size(166, 22)
         DeleteUserToolStripMenuItem.Text = "Delete User"
         ' 
         ' ViewAllUsersToolStripMenuItem
         ' 
         ViewAllUsersToolStripMenuItem.Name = "ViewAllUsersToolStripMenuItem"
-        ViewAllUsersToolStripMenuItem.Size = New Size(180, 22)
+        ViewAllUsersToolStripMenuItem.Size = New Size(166, 22)
         ViewAllUsersToolStripMenuItem.Text = "View All Users"
+        ' 
+        ' ShopItemsToolStripMenuItem
+        ' 
+        ShopItemsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddItemToolStripMenuItem, EditItemToolStripMenuItem, DeleteItemToolStripMenuItem, ViewAllItemsToolStripMenuItem})
+        ShopItemsToolStripMenuItem.Name = "ShopItemsToolStripMenuItem"
+        ShopItemsToolStripMenuItem.Size = New Size(258, 22)
+        ShopItemsToolStripMenuItem.Text = "Shop Items and Equipments"
+        ' 
+        ' AddItemToolStripMenuItem
+        ' 
+        AddItemToolStripMenuItem.Name = "AddItemToolStripMenuItem"
+        AddItemToolStripMenuItem.Size = New Size(167, 22)
+        AddItemToolStripMenuItem.Text = "Add Item"
+        ' 
+        ' EditItemToolStripMenuItem
+        ' 
+        EditItemToolStripMenuItem.Name = "EditItemToolStripMenuItem"
+        EditItemToolStripMenuItem.Size = New Size(167, 22)
+        EditItemToolStripMenuItem.Text = "Edit Item"
+        ' 
+        ' DeleteItemToolStripMenuItem
+        ' 
+        DeleteItemToolStripMenuItem.Name = "DeleteItemToolStripMenuItem"
+        DeleteItemToolStripMenuItem.Size = New Size(167, 22)
+        DeleteItemToolStripMenuItem.Text = "Delete Item"
+        ' 
+        ' ViewAllItemsToolStripMenuItem
+        ' 
+        ViewAllItemsToolStripMenuItem.Name = "ViewAllItemsToolStripMenuItem"
+        ViewAllItemsToolStripMenuItem.Size = New Size(167, 22)
+        ViewAllItemsToolStripMenuItem.Text = "View All Items"
         ' 
         ' frmNav_MainDashboard
         ' 

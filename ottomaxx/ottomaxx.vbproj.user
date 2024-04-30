@@ -4,5 +4,11 @@
     <Compile Update="frmNav_MainDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSettings_AddShop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSettings_DeleteShop.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

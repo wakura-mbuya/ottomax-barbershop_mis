@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmnav_maindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmnav_maindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmsettings_deleteshop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmsettings_deleteshop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmnav_maindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmnav_maindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmsettings_deleteshop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmsettings_deleteshop.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\shopcontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\shopcontroller.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,27 +30,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmNav_MainDashboard.vb",
-              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmNav_MainDashboard.vb",
-              "RelativeDocumentMoniker": "ottomaxx\\frmNav_MainDashboard.vb",
-              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmNav_MainDashboard.vb*",
-              "RelativeToolTip": "ottomaxx\\frmNav_MainDashboard.vb*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "ShopController.vb",
+              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\ShopController.vb",
+              "RelativeDocumentMoniker": "ottomaxx\\ShopController.vb",
+              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\ShopController.vb",
+              "RelativeToolTip": "ottomaxx\\ShopController.vb",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAwFUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-28T14:48:48.4Z",
+              "WhenOpened": "2024-04-30T02:58:08.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmNav_MainDashboard.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmNav_MainDashboard.vb",
-              "RelativeDocumentMoniker": "ottomaxx\\frmNav_MainDashboard.vb",
-              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmNav_MainDashboard.vb [Design]*",
-              "RelativeToolTip": "ottomaxx\\frmNav_MainDashboard.vb [Design]*",
+              "Title": "frmSettings_DeleteShop.vb",
+              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_DeleteShop.vb",
+              "RelativeDocumentMoniker": "ottomaxx\\frmSettings_DeleteShop.vb",
+              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_DeleteShop.vb*",
+              "RelativeToolTip": "ottomaxx\\frmSettings_DeleteShop.vb*",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAwEsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-28T14:48:11.952Z",
+              "WhenOpened": "2024-04-30T02:42:48.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmSettings_DeleteShop.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_DeleteShop.vb",
+              "RelativeDocumentMoniker": "ottomaxx\\frmSettings_DeleteShop.vb",
+              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_DeleteShop.vb [Design]*",
+              "RelativeToolTip": "ottomaxx\\frmSettings_DeleteShop.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-30T02:29:04.638Z",
               "EditorCaption": " [Design]"
             }
           ]
