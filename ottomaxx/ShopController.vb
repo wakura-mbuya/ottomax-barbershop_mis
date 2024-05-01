@@ -86,4 +86,17 @@
             Return True
         End If
     End Function
+
+    Public Sub EditShop(shopID As Integer, shopName As String, ByRef errString As String)
+        DBAccess.addParameters("@shopName", shopName)
+        DBAccess.addParameters("@shopID", shopID)
+        DBAccess.executeQuery("UPDATE tblShops SET tblShops.shopName = @shopName
+WHERE (((tblShops.shopID)=@shopID));")
+        MsgBox(DBAccess.exception)
+        If Not StringEmpty(DBAccess.exception) Then
+            errString = DBAccess.exception
+        Else
+            errString = String.Empty
+        End If
+    End Sub
 End Class
