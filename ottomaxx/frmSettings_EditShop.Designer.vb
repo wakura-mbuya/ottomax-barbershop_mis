@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmSettings_DeleteShop
+Partial Class frmSettings_EditShop
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -25,7 +25,7 @@ Partial Class frmSettings_DeleteShop
         GroupBox1 = New GroupBox()
         btnSearch = New Button()
         btnExit = New Button()
-        btnDelete = New Button()
+        btnSave = New Button()
         txtShopName = New TextBox()
         txtShopID = New TextBox()
         Label3 = New Label()
@@ -39,17 +39,17 @@ Partial Class frmSettings_DeleteShop
         ' 
         GroupBox1.Controls.Add(btnSearch)
         GroupBox1.Controls.Add(btnExit)
-        GroupBox1.Controls.Add(btnDelete)
+        GroupBox1.Controls.Add(btnSave)
         GroupBox1.Controls.Add(txtShopName)
         GroupBox1.Controls.Add(txtShopID)
         GroupBox1.Controls.Add(Label3)
         GroupBox1.Controls.Add(Label2)
-        GroupBox1.Location = New Point(13, 93)
+        GroupBox1.Location = New Point(37, 93)
         GroupBox1.Name = "GroupBox1"
         GroupBox1.Size = New Size(506, 178)
-        GroupBox1.TabIndex = 0
+        GroupBox1.TabIndex = 11
         GroupBox1.TabStop = False
-        GroupBox1.Text = "Enter shop details"
+        GroupBox1.Text = "Edit shop details"
         ' 
         ' btnSearch
         ' 
@@ -79,19 +79,19 @@ Partial Class frmSettings_DeleteShop
         btnExit.Text = "E&xit"
         btnExit.UseVisualStyleBackColor = False
         ' 
-        ' btnDelete
+        ' btnSave
         ' 
-        btnDelete.BackColor = Color.FromArgb(CByte(192), CByte(255), CByte(255))
-        btnDelete.FlatAppearance.BorderColor = Color.Gray
-        btnDelete.FlatAppearance.BorderSize = 3
-        btnDelete.FlatAppearance.MouseOverBackColor = Color.Lime
-        btnDelete.FlatStyle = FlatStyle.Flat
-        btnDelete.Location = New Point(246, 117)
-        btnDelete.Name = "btnDelete"
-        btnDelete.Size = New Size(92, 34)
-        btnDelete.TabIndex = 5
-        btnDelete.Text = "&Delete"
-        btnDelete.UseVisualStyleBackColor = False
+        btnSave.BackColor = Color.FromArgb(CByte(192), CByte(255), CByte(255))
+        btnSave.FlatAppearance.BorderColor = Color.Gray
+        btnSave.FlatAppearance.BorderSize = 3
+        btnSave.FlatAppearance.MouseOverBackColor = Color.Lime
+        btnSave.FlatStyle = FlatStyle.Flat
+        btnSave.Location = New Point(246, 117)
+        btnSave.Name = "btnSave"
+        btnSave.Size = New Size(92, 34)
+        btnSave.TabIndex = 5
+        btnSave.Text = "&Save"
+        btnSave.UseVisualStyleBackColor = False
         ' 
         ' txtShopName
         ' 
@@ -114,7 +114,7 @@ Partial Class frmSettings_DeleteShop
         Label3.AutoSize = True
         Label3.Location = New Point(37, 83)
         Label3.Name = "Label3"
-        Label3.Size = New Size(80, 17)
+        Label3.Size = New Size(87, 16)
         Label3.TabIndex = 3
         Label3.Text = "Shop Name:"
         ' 
@@ -123,34 +123,34 @@ Partial Class frmSettings_DeleteShop
         Label2.AutoSize = True
         Label2.Location = New Point(59, 35)
         Label2.Name = "Label2"
-        Label2.Size = New Size(57, 17)
+        Label2.Size = New Size(65, 16)
         Label2.TabIndex = 0
         Label2.Text = "Shop ID:"
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources._1_transparent
-        PictureBox1.Location = New Point(350, 12)
+        PictureBox1.Location = New Point(374, 12)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(117, 108)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 10
+        PictureBox1.TabIndex = 12
         PictureBox1.TabStop = False
         ' 
-        ' frmSettings_DeleteShop
+        ' frmSettings_EditShop
         ' 
-        AutoScaleDimensions = New SizeF(7F, 17F)
+        AutoScaleDimensions = New SizeF(8F, 16F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
-        ClientSize = New Size(529, 287)
+        ClientSize = New Size(550, 292)
         ControlBox = False
         Controls.Add(GroupBox1)
         Controls.Add(PictureBox1)
-        Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Font = New Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         FormBorderStyle = FormBorderStyle.Fixed3D
-        Name = "frmSettings_DeleteShop"
+        Name = "frmSettings_EditShop"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Delete Shop"
+        Text = "Edit shop details"
         GroupBox1.ResumeLayout(False)
         GroupBox1.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
@@ -158,12 +158,12 @@ Partial Class frmSettings_DeleteShop
     End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents btnSearch As Button
     Friend WithEvents btnExit As Button
-    Friend WithEvents btnDelete As Button
+    Friend WithEvents btnSave As Button
     Friend WithEvents txtShopName As TextBox
     Friend WithEvents txtShopID As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents btnSearch As Button
 End Class

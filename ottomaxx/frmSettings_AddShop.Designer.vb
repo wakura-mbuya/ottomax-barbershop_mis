@@ -71,7 +71,7 @@ Partial Class frmSettings_AddShop
         ' 
         ' btnSave
         ' 
-        btnSave.BackColor = Color.FromArgb(CByte(255), CByte(224), CByte(192))
+        btnSave.BackColor = Color.FromArgb(CByte(192), CByte(255), CByte(255))
         btnSave.FlatAppearance.BorderColor = Color.Gray
         btnSave.FlatAppearance.BorderSize = 3
         btnSave.FlatAppearance.MouseOverBackColor = Color.Lime
@@ -85,7 +85,7 @@ Partial Class frmSettings_AddShop
         ' 
         ' btnExit
         ' 
-        btnExit.BackColor = Color.FromArgb(CByte(255), CByte(224), CByte(192))
+        btnExit.BackColor = Color.FromArgb(CByte(192), CByte(255), CByte(255))
         btnExit.FlatAppearance.BorderColor = Color.Gray
         btnExit.FlatAppearance.BorderSize = 3
         btnExit.FlatAppearance.MouseOverBackColor = Color.Red

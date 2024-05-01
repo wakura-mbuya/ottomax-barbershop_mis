@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("ottomaxx"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6299df90ddf4ee305e1b85b274f41c5f3988685"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83e9f45925c615e8a130a2f5e98371f47cf07653"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("ottomaxx"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("ottomaxx"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

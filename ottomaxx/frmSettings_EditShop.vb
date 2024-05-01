@@ -1,14 +1,11 @@
-﻿Public Class frmSettings_DeleteShop
+﻿Public Class frmSettings_EditShop
     Dim shopCtrl As New ShopController
-    Dim errString As String
+    Dim errString As String = ""
     Dim shopID As Integer
     Dim shopName As String
 
-    Private Sub txtShopID_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtShopID.KeyPress
-        ' allow only nums and backspace
-        If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso (e.KeyChar <> ControlChars.Back) Then
-            e.Handled = True
-        End If
+    Private Sub frmSettings_EditShop_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        btnSave.Enabled = False
     End Sub
 
     Private Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
@@ -20,13 +17,13 @@
 
             If String.Equals(shopName, "Not found") Then
                 MsgBox(shopName, MsgBoxStyle.Exclamation, "Ottomaxx")
-                btnDelete.Enabled = False : Exit Sub
+                btnSave.Enabled = False : Exit Sub
             ElseIf String.Equals(shopName, "Error") Then
                 MsgBox(errString, MsgBoxStyle.Critical, "Ottomaxx")
-                btnDelete.Enabled = False : Exit Sub
+                btnSave.Enabled = False : Exit Sub
             Else
                 txtShopName.Text = shopName
-                btnDelete.Enabled = True : Exit Sub
+                btnSave.Enabled = True : Exit Sub
             End If
         End If
 
@@ -38,14 +35,14 @@
 
             If shopID = -1 Then
                 MsgBox(errString, MsgBoxStyle.Critical, "Ottomaxx")
-                btnDelete.Enabled = False : Exit Sub
+                btnSave.Enabled = False : Exit Sub
 
             ElseIf shopID = 0 Then
                 MsgBox("Not found", MsgBoxStyle.Exclamation, "Ottomaxx")
-                btnDelete.Enabled = False : Exit Sub
+                btnSave.Enabled = False : Exit Sub
             Else
                 txtShopID.Text = shopID.ToString()
-                btnDelete.Enabled = True : Exit Sub
+                btnSave.Enabled = True : Exit Sub
             End If
         End If
 
@@ -53,30 +50,28 @@
         MsgBox("Enter Either Shop ID or Shop Name and try again", MsgBoxStyle.Exclamation, "Ottomaxx")
     End Sub
 
-    Private Sub frmSettings_DeleteShop_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        btnDelete.Enabled = False
-    End Sub
-
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
     End Sub
 
-    Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
-        If shopCtrl.DeleteShop(Integer.Parse(txtShopID.Text), errString) Then
-            MsgBox(txtShopName.Text + " deleted succefully", MsgBoxStyle.Information, "Ottomaxx")
-            txtShopName.Text = String.Empty
-            txtShopID.Text = String.Empty
+    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+        MsgBox(shopID.ToString)
+        shopCtrl.EditShop(shopID, shopName, errString)
+        If String.IsNullOrEmpty(errString) Then
+            MsgBox("Shop details updated succefully", MsgBoxStyle.Information, "Ottomaxx")
         Else
             MsgBox(errString, MsgBoxStyle.Critical, "Ottomaxx")
         End If
     End Sub
 
-    Private Sub frmSettings_DeleteShop_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
-        txtShopID.Text = String.Empty
-        txtShopName.Text = String.Empty
-    End Sub
-
     Private Sub txtShopID_TextChanged(sender As Object, e As EventArgs) Handles txtShopID.TextChanged
 
+    End Sub
+
+    Private Sub txtShopID_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtShopID.KeyPress
+        ' allow only nums and backspace
+        If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso (e.KeyChar <> ControlChars.Back) Then
+            e.Handled = True
+        End If
     End Sub
 End Class
