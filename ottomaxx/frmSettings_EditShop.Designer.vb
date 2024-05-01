@@ -143,9 +143,11 @@ Partial Class frmSettings_EditShop
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
         ClientSize = New Size(550, 292)
+        ControlBox = False
         Controls.Add(GroupBox1)
         Controls.Add(PictureBox1)
         Font = New Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        FormBorderStyle = FormBorderStyle.Fixed3D
         Name = "frmSettings_EditShop"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Edit shop details"

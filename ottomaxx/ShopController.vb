@@ -92,11 +92,23 @@
         DBAccess.addParameters("@shopID", shopID)
         DBAccess.executeQuery("UPDATE tblShops SET tblShops.shopName = @shopName
 WHERE (((tblShops.shopID)=@shopID));")
-        MsgBox(DBAccess.exception)
+
         If Not StringEmpty(DBAccess.exception) Then
             errString = DBAccess.exception
         Else
             errString = String.Empty
         End If
     End Sub
+
+    Public Function ViewShops(ByRef errString As String) As DataTable
+        DBAccess.executeQuery("SELECT shopID AS [Shop ID], shopName AS [Shop Name] FROM tblShops;")
+
+        If Not StringEmpty(DBAccess.exception) Then
+            errString = DBAccess.exception
+            Return Nothing
+        Else
+            errString = String.Empty
+            Return DBAccess.dbTbl
+        End If
+    End Function
 End Class

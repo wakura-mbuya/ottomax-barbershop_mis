@@ -13,5 +13,8 @@
     <Compile Update="frmSettings_EditShop.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSettings_ViewShops.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
