@@ -10,7 +10,7 @@
         End If
 
         Dim shopCtrl As New ShopController
-        Dim errStr As String
+        Dim errStr As String = ""
         Dim shopID As Integer = shopCtrl.ReadShopID(txtShopName.Text, errStr)
         If (shopID = -1) Then
             MsgBox(errStr, MsgBoxStyle.Critical, "Ottomaxx") : Exit Sub

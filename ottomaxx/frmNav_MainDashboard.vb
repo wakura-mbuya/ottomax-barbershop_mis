@@ -6,4 +6,12 @@
     Private Sub DeleteShopToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteShopToolStripMenuItem.Click
         frmSettings_DeleteShop.ShowDialog()
     End Sub
+
+    Private Sub EditShopToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditShopToolStripMenuItem.Click
+        frmSettings_EditShop.ShowDialog()
+    End Sub
+
+    Private Sub ViewAllShopsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllShopsToolStripMenuItem.Click
+        frmSettings_ViewShops.ShowDialog()
+    End Sub
 End Class
