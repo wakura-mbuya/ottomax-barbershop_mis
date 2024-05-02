@@ -30,4 +30,20 @@
     Private Sub EditServiceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditServiceToolStripMenuItem.Click
         frmSettings_EditService.ShowDialog()
     End Sub
+
+    Private Sub AddRoleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddRoleToolStripMenuItem.Click
+        frmSettings_AddStaffRole.ShowDialog()
+    End Sub
+
+    Private Sub EditRoleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditRoleToolStripMenuItem.Click
+        frmSettings_EditStaffRole.ShowDialog()
+    End Sub
+
+    Private Sub DeleteRoleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteRoleToolStripMenuItem.Click
+        frmSettings_DeleteStaffRole.ShowDialog()
+    End Sub
+
+    Private Sub ViewAllRolesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllRolesToolStripMenuItem.Click
+        frmSettings_ViewStaffRole.ShowDialog()
+    End Sub
 End Class

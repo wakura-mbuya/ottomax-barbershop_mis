@@ -435,25 +435,25 @@ Partial Class frmNav_MainDashboard
         ' AddRoleToolStripMenuItem
         ' 
         AddRoleToolStripMenuItem.Name = "AddRoleToolStripMenuItem"
-        AddRoleToolStripMenuItem.Size = New Size(164, 22)
+        AddRoleToolStripMenuItem.Size = New Size(180, 22)
         AddRoleToolStripMenuItem.Text = "Add Role"
         ' 
         ' EditRoleToolStripMenuItem
         ' 
         EditRoleToolStripMenuItem.Name = "EditRoleToolStripMenuItem"
-        EditRoleToolStripMenuItem.Size = New Size(164, 22)
+        EditRoleToolStripMenuItem.Size = New Size(180, 22)
         EditRoleToolStripMenuItem.Text = "Edit Role"
         ' 
         ' DeleteRoleToolStripMenuItem
         ' 
         DeleteRoleToolStripMenuItem.Name = "DeleteRoleToolStripMenuItem"
-        DeleteRoleToolStripMenuItem.Size = New Size(164, 22)
+        DeleteRoleToolStripMenuItem.Size = New Size(180, 22)
         DeleteRoleToolStripMenuItem.Text = "Delete Role"
         ' 
         ' ViewAllRolesToolStripMenuItem
         ' 
         ViewAllRolesToolStripMenuItem.Name = "ViewAllRolesToolStripMenuItem"
-        ViewAllRolesToolStripMenuItem.Size = New Size(164, 22)
+        ViewAllRolesToolStripMenuItem.Size = New Size(180, 22)
         ViewAllRolesToolStripMenuItem.Text = "View All Roles"
         ' 
         ' SystemUsersToolStripMenuItem
