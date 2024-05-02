@@ -10,10 +10,16 @@
     <Compile Update="frmSettings_AddShop.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSettings_AddStaffRole.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmSettings_DeleteService.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_DeleteShop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSettings_DeleteStaffRole.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_EditService.vb">
@@ -22,10 +28,16 @@
     <Compile Update="frmSettings_EditShop.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSettings_EditStaffRole.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmSettings_ViewServices.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_ViewShops.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSettings_ViewStaffRoles.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
