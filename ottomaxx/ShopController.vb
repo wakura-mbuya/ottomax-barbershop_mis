@@ -1,7 +1,12 @@
 ﻿Public Class ShopController
-    Dim DBAccess As New DBControl
+    Dim DBAccess As New DBControl ' for connecting to the database
 
     Private Function StringEmpty(str As String) As Boolean
+        ' Checks if a string is Null or empty
+        ' @str: the string to be checked
+        ' @Return:  True if the string is Null or Empty
+        '           Otherwise returns False
+
         Return String.IsNullOrEmpty(str)
     End Function
 
@@ -9,7 +14,7 @@
         ' Creates a new shop record in the table tblShop in the database
         ' @shopName: Name of the shop
         ' @errString: Stores the exception message if an error occurs
-        ' @Return: True if the record is added successfuly into the database, 
+        ' @Return:  True if the record is added successfuly into the database, 
         '           Returns false if an error occurs
 
         DBAccess.addParameters("@shopName", shopName)
@@ -74,6 +79,12 @@
     End Function
 
     Public Function DeleteShop(shopID As Integer, ByRef errString As String) As Boolean
+        ' Deletes a shop record int the tblShops in the database
+        ' @shopID:  The unique ID of the shop to be deleted
+        ' @errString: Stores the exception message if an exception occurs when the function is run
+        ' @Return: True if the function is executed successfully
+        '          Otherwise it returns False
+
         DBAccess.addParameters("@shopID", shopID)
         DBAccess.executeQuery("DELETE FROM tblShops WHERE shopID = @shopID")
 
@@ -88,6 +99,11 @@
     End Function
 
     Public Sub EditShop(shopID As Integer, shopName As String, ByRef errString As String)
+        ' Updates the details of shop record in tblShops in the database
+        ' @shopID: The unique ID of the shop to be updated
+        ' @shopName: the updated shop name
+        ' @errString: For storing the exception message incase one occurs during execution of this function
+
         DBAccess.addParameters("@shopName", shopName)
         DBAccess.addParameters("@shopID", shopID)
         DBAccess.executeQuery("UPDATE tblShops SET tblShops.shopName = @shopName

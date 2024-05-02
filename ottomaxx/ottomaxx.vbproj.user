@@ -4,13 +4,25 @@
     <Compile Update="frmNav_MainDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSettings_AddService.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmSettings_AddShop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSettings_DeleteService.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_DeleteShop.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSettings_EditService.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmSettings_EditShop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSettings_ViewServices.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_ViewShops.vb">

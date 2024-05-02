@@ -6,7 +6,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnLoad.Click
         Dim shopCtrl As New ShopController
         Dim shopDtbl As New DataTable
-        Dim errString As String
+        Dim errString As String = ""
 
         shopDtbl = shopCtrl.ViewShops(errString)
         If Not String.IsNullOrEmpty(errString) Then

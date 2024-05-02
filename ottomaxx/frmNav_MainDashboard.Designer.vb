@@ -373,25 +373,25 @@ Partial Class frmNav_MainDashboard
         ' AddShopToolStripMenuItem
         ' 
         AddShopToolStripMenuItem.Name = "AddShopToolStripMenuItem"
-        AddShopToolStripMenuItem.Size = New Size(180, 22)
+        AddShopToolStripMenuItem.Size = New Size(170, 22)
         AddShopToolStripMenuItem.Text = "Add Shop"
         ' 
         ' EditShopToolStripMenuItem
         ' 
         EditShopToolStripMenuItem.Name = "EditShopToolStripMenuItem"
-        EditShopToolStripMenuItem.Size = New Size(180, 22)
+        EditShopToolStripMenuItem.Size = New Size(170, 22)
         EditShopToolStripMenuItem.Text = "Edit Shop"
         ' 
         ' DeleteShopToolStripMenuItem
         ' 
         DeleteShopToolStripMenuItem.Name = "DeleteShopToolStripMenuItem"
-        DeleteShopToolStripMenuItem.Size = New Size(180, 22)
+        DeleteShopToolStripMenuItem.Size = New Size(170, 22)
         DeleteShopToolStripMenuItem.Text = "Delete Shop"
         ' 
         ' ViewAllShopsToolStripMenuItem
         ' 
         ViewAllShopsToolStripMenuItem.Name = "ViewAllShopsToolStripMenuItem"
-        ViewAllShopsToolStripMenuItem.Size = New Size(180, 22)
+        ViewAllShopsToolStripMenuItem.Size = New Size(170, 22)
         ViewAllShopsToolStripMenuItem.Text = "View All Shops"
         ' 
         ' ServicesToolStripMenuItem
