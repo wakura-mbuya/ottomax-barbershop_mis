@@ -14,4 +14,20 @@
     Private Sub ViewAllShopsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllShopsToolStripMenuItem.Click
         frmSettings_ViewShops.ShowDialog()
     End Sub
+
+    Private Sub AddServiceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddServiceToolStripMenuItem.Click
+        frmSettings_AddService.ShowDialog()
+    End Sub
+
+    Private Sub DeleteServiceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteServiceToolStripMenuItem.Click
+        frmSettings_DeleteService.ShowDialog()
+    End Sub
+
+    Private Sub ViewAllServicesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllServicesToolStripMenuItem.Click
+        frmSettings_ViewServices.ShowDialog()
+    End Sub
+
+    Private Sub EditServiceToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditServiceToolStripMenuItem.Click
+        frmSettings_EditService.ShowDialog()
+    End Sub
 End Class
