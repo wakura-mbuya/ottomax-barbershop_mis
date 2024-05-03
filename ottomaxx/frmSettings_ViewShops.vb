@@ -4,7 +4,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnLoad.Click
-        Dim shopCtrl As New ShopController
+        Dim shopCtrl As New Shop
         Dim shopDtbl As New DataTable
         Dim errString As String = ""
 

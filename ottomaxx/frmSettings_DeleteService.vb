@@ -1,7 +1,7 @@
 ﻿Public Class frmSettings_DeleteService
     Dim serviceID As Integer
     Dim serviceName, description, errString As String
-    Dim serviceCtrl As New ServiceController
+    Dim serviceCtrl As New Service
     Private Sub frmSettings_DeleteService_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         btnDelete.Enabled = False
     End Sub

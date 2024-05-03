@@ -1,4 +1,4 @@
-﻿Public Class ServiceController
+﻿Public Class Service
     Dim DBAccess As New DBControl
 
     Public Function StringEmpty(strError As String) As Boolean
@@ -88,6 +88,13 @@
     End Function
 
     Public Function DeleteService(serviceID As Integer, ByRef errString As String) As Boolean
+        ' Deletes a record from tblServices
+        ' @serviceID: Unique ID of the service to be deleted
+        ' @errString: for storing exception messages
+        '
+        ' Return: True on succee
+        '             False on failure
+
         With DBAccess
             .addParameters("@serviceID", serviceID)
             .executeQuery("DELETE FROM tblServices WHERE serviceID=@serviceID")
@@ -102,6 +109,16 @@
     End Function
 
     Public Function EditService(serviceID As Integer, serviceName As String, price As Double, description As String, ByRef errString As String) As Boolean
+        ' Updates the details of a record in tblServices
+        ' @serviceID: unique ID of the record to be updated
+        ' @serviceName: updated service name
+        ' @price: Updated price of the service
+        ' @description: updated description of the service
+        ' @errString: for tracking error messages
+        '
+        '  Return:  True on success
+        '               False on failure
+
         With DBAccess
             .addParameters("@serviceName", serviceName)
             .addParameters("@price", price)

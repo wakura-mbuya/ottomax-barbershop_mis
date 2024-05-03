@@ -1,4 +1,4 @@
-﻿Public Class ShopController
+﻿Public Class Shop
     Dim DBAccess As New DBControl ' for connecting to the database
 
     Private Function StringEmpty(str As String) As Boolean
