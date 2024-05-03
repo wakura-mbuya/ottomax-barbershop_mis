@@ -22,6 +22,7 @@ Partial Class frmSettings_ViewStaffRoles
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         GroupBox1 = New GroupBox()
         dgvRoles = New DataGridView()
         btnLoad = New Button()
@@ -44,6 +45,15 @@ Partial Class frmSettings_ViewStaffRoles
         ' 
         dgvRoles.AllowUserToAddRows = False
         dgvRoles.AllowUserToDeleteRows = False
+        dgvRoles.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
+        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = Color.Blue
+        DataGridViewCellStyle1.Font = New Font("Verdana", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle1.ForeColor = SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
+        dgvRoles.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         dgvRoles.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         dgvRoles.Dock = DockStyle.Fill
         dgvRoles.Location = New Point(3, 19)
@@ -56,7 +66,7 @@ Partial Class frmSettings_ViewStaffRoles
         ' 
         btnLoad.BackColor = Color.FromArgb(CByte(192), CByte(255), CByte(192))
         btnLoad.FlatAppearance.BorderSize = 3
-        btnLoad.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(192), CByte(255), CByte(192))
+        btnLoad.FlatAppearance.MouseOverBackColor = Color.Lime
         btnLoad.FlatStyle = FlatStyle.Flat
         btnLoad.Location = New Point(292, 477)
         btnLoad.Name = "btnLoad"

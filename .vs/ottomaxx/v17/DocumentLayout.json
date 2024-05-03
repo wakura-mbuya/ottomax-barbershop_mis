@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmnav_maindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmnav_maindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmsettings_viewstaffroles.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmsettings_viewstaffroles.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmsettings_addstaffrole.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmsettings_addstaffrole.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmsettings_viewstaffroles.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmsettings_viewstaffroles.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmsettings_addstaffrole.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmsettings_addstaffrole.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmsettings_editstaffrole.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmsettings_editstaffrole.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmsettings_editstaffrole.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmsettings_editstaffrole.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\frmsettings_deletestaffrole.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\frmsettings_deletestaffrole.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|c:\\users\\25472\\documents\\personal\\ottomaxx\\ottomaxx\\role.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{77170385-65B1-4C32-88D3-93A102034EE8}|ottomaxx\\ottomaxx.vbproj|solutionrelative:ottomaxx\\role.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,77 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmNav_MainDashboard.vb",
-              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmNav_MainDashboard.vb",
-              "RelativeDocumentMoniker": "ottomaxx\\frmNav_MainDashboard.vb",
-              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmNav_MainDashboard.vb*",
-              "RelativeToolTip": "ottomaxx\\frmNav_MainDashboard.vb*",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAwC4AAAAiAAAA",
+              "Title": "frmSettings_ViewStaffRoles.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_ViewStaffRoles.vb",
+              "RelativeDocumentMoniker": "ottomaxx\\frmSettings_ViewStaffRoles.vb",
+              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_ViewStaffRoles.vb [Design]*",
+              "RelativeToolTip": "ottomaxx\\frmSettings_ViewStaffRoles.vb [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-02T18:47:44.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T10:06:42.717Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmSettings_AddStaffRole.vb",
-              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_AddStaffRole.vb",
-              "RelativeDocumentMoniker": "ottomaxx\\frmSettings_AddStaffRole.vb",
-              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_AddStaffRole.vb",
-              "RelativeToolTip": "ottomaxx\\frmSettings_AddStaffRole.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAJAAAA",
+              "Title": "frmSettings_ViewStaffRoles.vb",
+              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_ViewStaffRoles.vb",
+              "RelativeDocumentMoniker": "ottomaxx\\frmSettings_ViewStaffRoles.vb",
+              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_ViewStaffRoles.vb*",
+              "RelativeToolTip": "ottomaxx\\frmSettings_ViewStaffRoles.vb*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-02T18:47:06.208Z",
+              "WhenOpened": "2024-05-03T10:03:21.351Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmSettings_EditStaffRole.vb",
-              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_EditStaffRole.vb",
-              "RelativeDocumentMoniker": "ottomaxx\\frmSettings_EditStaffRole.vb",
-              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_EditStaffRole.vb",
-              "RelativeToolTip": "ottomaxx\\frmSettings_EditStaffRole.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-02T18:46:50.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmSettings_DeleteStaffRole.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_DeleteStaffRole.vb",
-              "RelativeDocumentMoniker": "ottomaxx\\frmSettings_DeleteStaffRole.vb",
-              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_DeleteStaffRole.vb [Design]",
-              "RelativeToolTip": "ottomaxx\\frmSettings_DeleteStaffRole.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-02T18:37:08.084Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmSettings_EditStaffRole.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_EditStaffRole.vb",
-              "RelativeDocumentMoniker": "ottomaxx\\frmSettings_EditStaffRole.vb",
-              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_EditStaffRole.vb [Design]",
-              "RelativeToolTip": "ottomaxx\\frmSettings_EditStaffRole.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-02T18:29:20.282Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmSettings_AddStaffRole.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_AddStaffRole.vb",
-              "RelativeDocumentMoniker": "ottomaxx\\frmSettings_AddStaffRole.vb",
-              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\frmSettings_AddStaffRole.vb [Design]",
-              "RelativeToolTip": "ottomaxx\\frmSettings_AddStaffRole.vb [Design]",
+              "Title": "Role.vb",
+              "DocumentMoniker": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\Role.vb",
+              "RelativeDocumentMoniker": "ottomaxx\\Role.vb",
+              "ToolTip": "C:\\Users\\25472\\Documents\\Personal\\ottomaxx\\ottomaxx\\Role.vb",
+              "RelativeToolTip": "ottomaxx\\Role.vb",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-02T17:54:16.296Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-03T08:06:09.485Z",
+              "EditorCaption": ""
             }
           ]
         }

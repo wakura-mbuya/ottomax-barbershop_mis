@@ -36,7 +36,7 @@ Partial Class frmSettings_EditStaffRole
         ' 
         btnSave.BackColor = Color.FromArgb(CByte(192), CByte(255), CByte(192))
         btnSave.FlatAppearance.BorderSize = 3
-        btnSave.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(192), CByte(255), CByte(192))
+        btnSave.FlatAppearance.MouseOverBackColor = Color.Lime
         btnSave.FlatStyle = FlatStyle.Flat
         btnSave.Location = New Point(205, 144)
         btnSave.Name = "btnSave"
@@ -67,7 +67,6 @@ Partial Class frmSettings_EditStaffRole
         ' 
         ' txtID
         ' 
-        txtID.Enabled = False
         txtID.Location = New Point(101, 63)
         txtID.Name = "txtID"
         txtID.Size = New Size(251, 23)

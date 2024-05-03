@@ -9,7 +9,7 @@
             MsgBox("Enter the name of the shop and try again", MsgBoxStyle.Exclamation, "Ottomaxx") : Exit Sub
         End If
 
-        Dim shopCtrl As New ShopController
+        Dim shopCtrl As New Shop
         Dim errStr As String = ""
         Dim shopID As Integer = shopCtrl.ReadShopID(txtShopName.Text, errStr)
         If (shopID = -1) Then

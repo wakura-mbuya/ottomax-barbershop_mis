@@ -81,7 +81,6 @@ Partial Class frmSettings_DeleteStaffRole
         ' 
         ' txtID
         ' 
-        txtID.Enabled = False
         txtID.Location = New Point(96, 51)
         txtID.Name = "txtID"
         txtID.Size = New Size(251, 23)

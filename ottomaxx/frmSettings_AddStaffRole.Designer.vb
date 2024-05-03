@@ -78,7 +78,7 @@ Partial Class frmSettings_AddStaffRole
         ' 
         btnSave.BackColor = Color.FromArgb(CByte(192), CByte(255), CByte(192))
         btnSave.FlatAppearance.BorderSize = 3
-        btnSave.FlatAppearance.MouseOverBackColor = Color.FromArgb(CByte(192), CByte(255), CByte(192))
+        btnSave.FlatAppearance.MouseOverBackColor = Color.Lime
         btnSave.FlatStyle = FlatStyle.Flat
         btnSave.Location = New Point(200, 159)
         btnSave.Name = "btnSave"
