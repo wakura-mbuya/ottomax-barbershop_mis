@@ -13,6 +13,9 @@
     <Compile Update="frmSettings_AddStaffRole.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSettings_AddUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmSettings_DeleteService.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -20,6 +23,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_DeleteStaffRole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSettings_DeleteUser.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_EditService.vb">
@@ -31,6 +37,9 @@
     <Compile Update="frmSettings_EditStaffRole.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSettings_EditUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmSettings_ViewServices.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -38,6 +47,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_ViewStaffRoles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSettings_ViewUsers.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
