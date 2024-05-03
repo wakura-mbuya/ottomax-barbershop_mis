@@ -1,6 +1,6 @@
 ﻿Public Class frmSettings_ViewServices
     Private Sub btnLoad_Click(sender As Object, e As EventArgs) Handles btnLoad.Click
-        Dim serviceCtrl As New ServiceController
+        Dim serviceCtrl As New Service
         Dim errString As String = ""
         Dim serviceDtbl As DataTable
 

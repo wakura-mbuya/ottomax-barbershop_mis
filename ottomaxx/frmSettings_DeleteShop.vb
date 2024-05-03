@@ -1,5 +1,5 @@
 ﻿Public Class frmSettings_DeleteShop
-    Dim shopCtrl As New ShopController
+    Dim shopCtrl As New Shop
     Dim errString As String
     Dim shopID As Integer
     Dim shopName As String

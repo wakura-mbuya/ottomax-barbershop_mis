@@ -44,6 +44,6 @@
     End Sub
 
     Private Sub ViewAllRolesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllRolesToolStripMenuItem.Click
-        frmSettings_ViewStaffRole.ShowDialog()
+        frmSettings_ViewStaffRoles.ShowDialog()
     End Sub
 End Class

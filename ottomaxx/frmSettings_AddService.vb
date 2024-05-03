@@ -39,7 +39,7 @@
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        Dim serviceCtrl As New ServiceController
+        Dim serviceCtrl As New Service
         Dim price As Double
         Dim serviceName As String
         Dim description As String

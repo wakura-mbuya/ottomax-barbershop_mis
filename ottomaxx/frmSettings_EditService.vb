@@ -2,7 +2,7 @@
     Dim serviceID As Integer
     Dim errString As String
     Dim serviceName As String
-    Dim serviceCtrl As New ServiceController
+    Dim serviceCtrl As New Service
 
     Private Sub txtServiceName_TextChanged(sender As Object, e As EventArgs) Handles txtServiceName.TextChanged
         If Not String.IsNullOrEmpty(txtServiceName.Text) Then
@@ -62,7 +62,7 @@
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
-        Dim serviceCtrl As New ServiceController
+        Dim serviceCtrl As New Service
 
         If serviceID < 1 Then
             MsgBox(errString, MsgBoxStyle.Exclamation, "Ottomaxx")
