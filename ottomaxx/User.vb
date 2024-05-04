@@ -18,12 +18,16 @@
         '@Return: True if the record is added successfully to the database
         '              Otherwise it Returns false
 
+        MsgBox(username, MsgBoxStyle.Information, "Ottomaxx")
+        MsgBox(password, MsgBoxStyle.Information, "ottomaxx")
         With DBAccess
-            .addParameters("@username", username)
-            .addParameters("@password", password)
-            .executeQuery("INSERT INTO tblSystemUsers(username, password) VALUES(@username, @password);")
+            .addParameters("@userID", 1)
+            .addParameters("@user_", username)
+            .addParameters("@pass_", password)
+            .executeQuery("INSERT INTO tblUsers (userID, username, password) VALUES(@userID, @user_, @pass_);")
         End With
 
+        MsgBox("Add user: " + errString)
         errString = DBAccess.exception
         If StringEmpty(DBAccess.exception) Then
             Return True
@@ -43,7 +47,7 @@
 
         With DBAccess
             .addParameters("@username", username)
-            .executeQuery("SELECT userID FROM tblSystemUsers WHERE username=@username;")
+            .executeQuery("SELECT userID FROM tblUsers WHERE username=@username;")
         End With
 
         errString = DBAccess.exception
@@ -69,7 +73,7 @@
 
         With DBAccess
             .addParameters("@userID", userID)
-            .executeQuery("SELECT username FROM tblSystemUsers WHERE userID=@userID;")
+            .executeQuery("SELECT username FROM tblUsers WHERE userID=@userID;")
         End With
 
         errString = DBAccess.exception
@@ -95,7 +99,7 @@
 
         With DBAccess
             .addParameters("@userID", userID)
-            .executeQuery("DELETE FROM tblSystemUsers WHERE userID=@userID")
+            .executeQuery("DELETE FROM tblUsers WHERE userID=@userID")
         End With
 
         errString = DBAccess.exception
@@ -121,7 +125,7 @@
             .addParameters("@password", password)
             .addParameters("@userID", userID)
 
-            .executeQuery("UPDATE tblSystemUsers SET username=@username, password=@password WHERE userID=@userID")
+            .executeQuery("UPDATE tblUsers SET username=@username, password=@password WHERE userID=@userID")
         End With
 
         errString = DBAccess.exception
@@ -137,7 +141,7 @@
 
         With DBAccess
             .addParameters("@username", username)
-            .executeQuery("SELECT userID As [User ID], username As Username, password As [Password] FROM tblSystemUsers WHERE username=@username;")
+            .executeQuery("SELECT userID As [User ID], username As [Username], password As [Password] FROM tblUsers WHERE username=@username;")
         End With
 
         errString = DBAccess.exception
@@ -160,7 +164,7 @@
         '               Nothing on error
 
         With DBAccess
-            .executeQuery("SELECT username As [Username], password As [Password] FROM tblSystemUsers;")
+            .executeQuery("SELECT username As [Username], password As [Password] FROM tblUsers;")
         End With
 
         errString = DBAccess.exception

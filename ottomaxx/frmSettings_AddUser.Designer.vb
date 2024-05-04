@@ -78,6 +78,7 @@ Partial Class frmSettings_AddUser
         ' 
         txtPassword.Location = New Point(106, 75)
         txtPassword.Name = "txtPassword"
+        txtPassword.PasswordChar = "*"c
         txtPassword.Size = New Size(379, 23)
         txtPassword.TabIndex = 3
         ' 
