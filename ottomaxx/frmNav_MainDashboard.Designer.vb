@@ -334,7 +334,7 @@ Partial Class frmNav_MainDashboard
         ' 
         CashboxToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewCashboxHistoryToolStripMenuItem, UpdateCashboxToolStripMenuItem})
         CashboxToolStripMenuItem.Name = "CashboxToolStripMenuItem"
-        CashboxToolStripMenuItem.Size = New Size(174, 22)
+        CashboxToolStripMenuItem.Size = New Size(180, 22)
         CashboxToolStripMenuItem.Text = "Cashbox"
         ' 
         ' ViewCashboxHistoryToolStripMenuItem
@@ -352,7 +352,7 @@ Partial Class frmNav_MainDashboard
         ' ViewPaymentsToolStripMenuItem
         ' 
         ViewPaymentsToolStripMenuItem.Name = "ViewPaymentsToolStripMenuItem"
-        ViewPaymentsToolStripMenuItem.Size = New Size(174, 22)
+        ViewPaymentsToolStripMenuItem.Size = New Size(180, 22)
         ViewPaymentsToolStripMenuItem.Text = "View Payments"
         ' 
         ' SettingsToolStripMenuItem
@@ -367,7 +367,7 @@ Partial Class frmNav_MainDashboard
         ' 
         ShopsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddShopToolStripMenuItem, EditShopToolStripMenuItem, DeleteShopToolStripMenuItem, ViewAllShopsToolStripMenuItem})
         ShopsToolStripMenuItem.Name = "ShopsToolStripMenuItem"
-        ShopsToolStripMenuItem.Size = New Size(180, 22)
+        ShopsToolStripMenuItem.Size = New Size(164, 22)
         ShopsToolStripMenuItem.Text = "Shops"
         ' 
         ' AddShopToolStripMenuItem
@@ -398,7 +398,7 @@ Partial Class frmNav_MainDashboard
         ' 
         ServicesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddServiceToolStripMenuItem, EditServiceToolStripMenuItem, DeleteServiceToolStripMenuItem, ViewAllServicesToolStripMenuItem})
         ServicesToolStripMenuItem.Name = "ServicesToolStripMenuItem"
-        ServicesToolStripMenuItem.Size = New Size(180, 22)
+        ServicesToolStripMenuItem.Size = New Size(164, 22)
         ServicesToolStripMenuItem.Text = "Services"
         ' 
         ' AddServiceToolStripMenuItem
@@ -429,7 +429,7 @@ Partial Class frmNav_MainDashboard
         ' 
         StaffRolesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddRoleToolStripMenuItem, EditRoleToolStripMenuItem, DeleteRoleToolStripMenuItem, ViewAllRolesToolStripMenuItem})
         StaffRolesToolStripMenuItem.Name = "StaffRolesToolStripMenuItem"
-        StaffRolesToolStripMenuItem.Size = New Size(180, 22)
+        StaffRolesToolStripMenuItem.Size = New Size(164, 22)
         StaffRolesToolStripMenuItem.Text = "Staff Roles"
         ' 
         ' AddRoleToolStripMenuItem
@@ -460,38 +460,38 @@ Partial Class frmNav_MainDashboard
         ' 
         ShopItemsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddItemToolStripMenuItem, EditItemToolStripMenuItem, DeleteItemToolStripMenuItem, ViewAllItemsToolStripMenuItem})
         ShopItemsToolStripMenuItem.Name = "ShopItemsToolStripMenuItem"
-        ShopItemsToolStripMenuItem.Size = New Size(180, 22)
+        ShopItemsToolStripMenuItem.Size = New Size(164, 22)
         ShopItemsToolStripMenuItem.Text = "Shop Items"
         ' 
         ' AddItemToolStripMenuItem
         ' 
         AddItemToolStripMenuItem.Name = "AddItemToolStripMenuItem"
-        AddItemToolStripMenuItem.Size = New Size(180, 22)
+        AddItemToolStripMenuItem.Size = New Size(167, 22)
         AddItemToolStripMenuItem.Text = "Add Item"
         ' 
         ' EditItemToolStripMenuItem
         ' 
         EditItemToolStripMenuItem.Name = "EditItemToolStripMenuItem"
-        EditItemToolStripMenuItem.Size = New Size(180, 22)
+        EditItemToolStripMenuItem.Size = New Size(167, 22)
         EditItemToolStripMenuItem.Text = "Edit Item"
         ' 
         ' DeleteItemToolStripMenuItem
         ' 
         DeleteItemToolStripMenuItem.Name = "DeleteItemToolStripMenuItem"
-        DeleteItemToolStripMenuItem.Size = New Size(180, 22)
+        DeleteItemToolStripMenuItem.Size = New Size(167, 22)
         DeleteItemToolStripMenuItem.Text = "Delete Item"
         ' 
         ' ViewAllItemsToolStripMenuItem
         ' 
         ViewAllItemsToolStripMenuItem.Name = "ViewAllItemsToolStripMenuItem"
-        ViewAllItemsToolStripMenuItem.Size = New Size(180, 22)
+        ViewAllItemsToolStripMenuItem.Size = New Size(167, 22)
         ViewAllItemsToolStripMenuItem.Text = "View All Items"
         ' 
         ' SystemUsersToolStripMenuItem
         ' 
         SystemUsersToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddUserToolStripMenuItem, EditUserToolStripMenuItem, DeleteUserToolStripMenuItem, ViewAllUsersToolStripMenuItem})
         SystemUsersToolStripMenuItem.Name = "SystemUsersToolStripMenuItem"
-        SystemUsersToolStripMenuItem.Size = New Size(180, 22)
+        SystemUsersToolStripMenuItem.Size = New Size(164, 22)
         SystemUsersToolStripMenuItem.Text = "System Users"
         ' 
         ' AddUserToolStripMenuItem

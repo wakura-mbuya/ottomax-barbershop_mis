@@ -78,4 +78,16 @@
     Private Sub ViewAllItemsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllItemsToolStripMenuItem.Click
         frmSettings_ViewItems.ShowDialog()
     End Sub
+
+    Private Sub ViewCashboxHistoryToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewCashboxHistoryToolStripMenuItem.Click
+        frmAccounts_CashboxHistory.ShowDialog()
+    End Sub
+
+    Private Sub UpdateCashboxToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UpdateCashboxToolStripMenuItem.Click
+        frmAccounts_UpdateCashbox.ShowDialog()
+    End Sub
+
+    Private Sub ViewPaymentsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewPaymentsToolStripMenuItem.Click
+        frmAccounts_ViewPayments.ShowDialog()
+    End Sub
 End Class
