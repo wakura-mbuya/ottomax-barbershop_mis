@@ -19,7 +19,7 @@
 
         With DBAccess
             .addParameters("@role", role)
-            .executeQuery("INSERT INTO tblRoles(role) VALUES(@role);")
+            .executeQuery("INSERT INTO tblRoles (role) VALUES(@role);")
         End With
 
         errString = DBAccess.exception

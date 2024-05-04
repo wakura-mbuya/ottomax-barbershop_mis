@@ -435,25 +435,25 @@ Partial Class frmNav_MainDashboard
         ' AddRoleToolStripMenuItem
         ' 
         AddRoleToolStripMenuItem.Name = "AddRoleToolStripMenuItem"
-        AddRoleToolStripMenuItem.Size = New Size(180, 22)
+        AddRoleToolStripMenuItem.Size = New Size(164, 22)
         AddRoleToolStripMenuItem.Text = "Add Role"
         ' 
         ' EditRoleToolStripMenuItem
         ' 
         EditRoleToolStripMenuItem.Name = "EditRoleToolStripMenuItem"
-        EditRoleToolStripMenuItem.Size = New Size(180, 22)
+        EditRoleToolStripMenuItem.Size = New Size(164, 22)
         EditRoleToolStripMenuItem.Text = "Edit Role"
         ' 
         ' DeleteRoleToolStripMenuItem
         ' 
         DeleteRoleToolStripMenuItem.Name = "DeleteRoleToolStripMenuItem"
-        DeleteRoleToolStripMenuItem.Size = New Size(180, 22)
+        DeleteRoleToolStripMenuItem.Size = New Size(164, 22)
         DeleteRoleToolStripMenuItem.Text = "Delete Role"
         ' 
         ' ViewAllRolesToolStripMenuItem
         ' 
         ViewAllRolesToolStripMenuItem.Name = "ViewAllRolesToolStripMenuItem"
-        ViewAllRolesToolStripMenuItem.Size = New Size(180, 22)
+        ViewAllRolesToolStripMenuItem.Size = New Size(164, 22)
         ViewAllRolesToolStripMenuItem.Text = "View All Roles"
         ' 
         ' SystemUsersToolStripMenuItem
@@ -466,25 +466,25 @@ Partial Class frmNav_MainDashboard
         ' AddUserToolStripMenuItem
         ' 
         AddUserToolStripMenuItem.Name = "AddUserToolStripMenuItem"
-        AddUserToolStripMenuItem.Size = New Size(166, 22)
+        AddUserToolStripMenuItem.Size = New Size(180, 22)
         AddUserToolStripMenuItem.Text = "Add User"
         ' 
         ' EditUserToolStripMenuItem
         ' 
         EditUserToolStripMenuItem.Name = "EditUserToolStripMenuItem"
-        EditUserToolStripMenuItem.Size = New Size(166, 22)
+        EditUserToolStripMenuItem.Size = New Size(180, 22)
         EditUserToolStripMenuItem.Text = "Edit User"
         ' 
         ' DeleteUserToolStripMenuItem
         ' 
         DeleteUserToolStripMenuItem.Name = "DeleteUserToolStripMenuItem"
-        DeleteUserToolStripMenuItem.Size = New Size(166, 22)
+        DeleteUserToolStripMenuItem.Size = New Size(180, 22)
         DeleteUserToolStripMenuItem.Text = "Delete User"
         ' 
         ' ViewAllUsersToolStripMenuItem
         ' 
         ViewAllUsersToolStripMenuItem.Name = "ViewAllUsersToolStripMenuItem"
-        ViewAllUsersToolStripMenuItem.Size = New Size(166, 22)
+        ViewAllUsersToolStripMenuItem.Size = New Size(180, 22)
         ViewAllUsersToolStripMenuItem.Text = "View All Users"
         ' 
         ' ShopItemsToolStripMenuItem

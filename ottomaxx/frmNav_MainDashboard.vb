@@ -46,4 +46,20 @@
     Private Sub ViewAllRolesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllRolesToolStripMenuItem.Click
         frmSettings_ViewStaffRoles.ShowDialog()
     End Sub
+
+    Private Sub AddUserToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddUserToolStripMenuItem.Click
+        frmSettings_AddUser.ShowDialog()
+    End Sub
+
+    Private Sub EditUserToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditUserToolStripMenuItem.Click
+        frmSettings_EditUser.ShowDialog()
+    End Sub
+
+    Private Sub DeleteUserToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteUserToolStripMenuItem.Click
+        frmSettings_DeleteUser.ShowDialog()
+    End Sub
+
+    Private Sub ViewAllUsersToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllUsersToolStripMenuItem.Click
+        frmSettings_ViewUsers.ShowDialog()
+    End Sub
 End Class
