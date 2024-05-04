@@ -62,4 +62,20 @@
     Private Sub ViewAllUsersToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllUsersToolStripMenuItem.Click
         frmSettings_ViewUsers.ShowDialog()
     End Sub
+
+    Private Sub AddItemToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddItemToolStripMenuItem.Click
+        frmSettings_AddItem.ShowDialog()
+    End Sub
+
+    Private Sub EditItemToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditItemToolStripMenuItem.Click
+        frmSettings_EditItem.ShowDialog()
+    End Sub
+
+    Private Sub DeleteItemToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteItemToolStripMenuItem.Click
+        frmSettings_DeleteItem.ShowDialog()
+    End Sub
+
+    Private Sub ViewAllItemsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewAllItemsToolStripMenuItem.Click
+        frmSettings_ViewItems.ShowDialog()
+    End Sub
 End Class

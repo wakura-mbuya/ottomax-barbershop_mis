@@ -78,16 +78,16 @@ Partial Class frmNav_MainDashboard
         EditRoleToolStripMenuItem = New ToolStripMenuItem()
         DeleteRoleToolStripMenuItem = New ToolStripMenuItem()
         ViewAllRolesToolStripMenuItem = New ToolStripMenuItem()
-        SystemUsersToolStripMenuItem = New ToolStripMenuItem()
-        AddUserToolStripMenuItem = New ToolStripMenuItem()
-        EditUserToolStripMenuItem = New ToolStripMenuItem()
-        DeleteUserToolStripMenuItem = New ToolStripMenuItem()
-        ViewAllUsersToolStripMenuItem = New ToolStripMenuItem()
         ShopItemsToolStripMenuItem = New ToolStripMenuItem()
         AddItemToolStripMenuItem = New ToolStripMenuItem()
         EditItemToolStripMenuItem = New ToolStripMenuItem()
         DeleteItemToolStripMenuItem = New ToolStripMenuItem()
         ViewAllItemsToolStripMenuItem = New ToolStripMenuItem()
+        SystemUsersToolStripMenuItem = New ToolStripMenuItem()
+        AddUserToolStripMenuItem = New ToolStripMenuItem()
+        EditUserToolStripMenuItem = New ToolStripMenuItem()
+        DeleteUserToolStripMenuItem = New ToolStripMenuItem()
+        ViewAllUsersToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -357,7 +357,7 @@ Partial Class frmNav_MainDashboard
         ' 
         ' SettingsToolStripMenuItem
         ' 
-        SettingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ShopsToolStripMenuItem, ServicesToolStripMenuItem, StaffRolesToolStripMenuItem, SystemUsersToolStripMenuItem, ShopItemsToolStripMenuItem})
+        SettingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ShopsToolStripMenuItem, ServicesToolStripMenuItem, StaffRolesToolStripMenuItem, ShopItemsToolStripMenuItem, SystemUsersToolStripMenuItem})
         SettingsToolStripMenuItem.Font = New Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
         SettingsToolStripMenuItem.Size = New Size(74, 20)
@@ -367,7 +367,7 @@ Partial Class frmNav_MainDashboard
         ' 
         ShopsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddShopToolStripMenuItem, EditShopToolStripMenuItem, DeleteShopToolStripMenuItem, ViewAllShopsToolStripMenuItem})
         ShopsToolStripMenuItem.Name = "ShopsToolStripMenuItem"
-        ShopsToolStripMenuItem.Size = New Size(258, 22)
+        ShopsToolStripMenuItem.Size = New Size(180, 22)
         ShopsToolStripMenuItem.Text = "Shops"
         ' 
         ' AddShopToolStripMenuItem
@@ -398,7 +398,7 @@ Partial Class frmNav_MainDashboard
         ' 
         ServicesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddServiceToolStripMenuItem, EditServiceToolStripMenuItem, DeleteServiceToolStripMenuItem, ViewAllServicesToolStripMenuItem})
         ServicesToolStripMenuItem.Name = "ServicesToolStripMenuItem"
-        ServicesToolStripMenuItem.Size = New Size(258, 22)
+        ServicesToolStripMenuItem.Size = New Size(180, 22)
         ServicesToolStripMenuItem.Text = "Services"
         ' 
         ' AddServiceToolStripMenuItem
@@ -429,7 +429,7 @@ Partial Class frmNav_MainDashboard
         ' 
         StaffRolesToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddRoleToolStripMenuItem, EditRoleToolStripMenuItem, DeleteRoleToolStripMenuItem, ViewAllRolesToolStripMenuItem})
         StaffRolesToolStripMenuItem.Name = "StaffRolesToolStripMenuItem"
-        StaffRolesToolStripMenuItem.Size = New Size(258, 22)
+        StaffRolesToolStripMenuItem.Size = New Size(180, 22)
         StaffRolesToolStripMenuItem.Text = "Staff Roles"
         ' 
         ' AddRoleToolStripMenuItem
@@ -456,75 +456,78 @@ Partial Class frmNav_MainDashboard
         ViewAllRolesToolStripMenuItem.Size = New Size(164, 22)
         ViewAllRolesToolStripMenuItem.Text = "View All Roles"
         ' 
-        ' SystemUsersToolStripMenuItem
-        ' 
-        SystemUsersToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddUserToolStripMenuItem, EditUserToolStripMenuItem, DeleteUserToolStripMenuItem, ViewAllUsersToolStripMenuItem})
-        SystemUsersToolStripMenuItem.Name = "SystemUsersToolStripMenuItem"
-        SystemUsersToolStripMenuItem.Size = New Size(258, 22)
-        SystemUsersToolStripMenuItem.Text = "System Users"
-        ' 
-        ' AddUserToolStripMenuItem
-        ' 
-        AddUserToolStripMenuItem.Name = "AddUserToolStripMenuItem"
-        AddUserToolStripMenuItem.Size = New Size(180, 22)
-        AddUserToolStripMenuItem.Text = "Add User"
-        ' 
-        ' EditUserToolStripMenuItem
-        ' 
-        EditUserToolStripMenuItem.Name = "EditUserToolStripMenuItem"
-        EditUserToolStripMenuItem.Size = New Size(180, 22)
-        EditUserToolStripMenuItem.Text = "Edit User"
-        ' 
-        ' DeleteUserToolStripMenuItem
-        ' 
-        DeleteUserToolStripMenuItem.Name = "DeleteUserToolStripMenuItem"
-        DeleteUserToolStripMenuItem.Size = New Size(180, 22)
-        DeleteUserToolStripMenuItem.Text = "Delete User"
-        ' 
-        ' ViewAllUsersToolStripMenuItem
-        ' 
-        ViewAllUsersToolStripMenuItem.Name = "ViewAllUsersToolStripMenuItem"
-        ViewAllUsersToolStripMenuItem.Size = New Size(180, 22)
-        ViewAllUsersToolStripMenuItem.Text = "View All Users"
-        ' 
         ' ShopItemsToolStripMenuItem
         ' 
         ShopItemsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddItemToolStripMenuItem, EditItemToolStripMenuItem, DeleteItemToolStripMenuItem, ViewAllItemsToolStripMenuItem})
         ShopItemsToolStripMenuItem.Name = "ShopItemsToolStripMenuItem"
-        ShopItemsToolStripMenuItem.Size = New Size(258, 22)
-        ShopItemsToolStripMenuItem.Text = "Shop Items and Equipments"
+        ShopItemsToolStripMenuItem.Size = New Size(180, 22)
+        ShopItemsToolStripMenuItem.Text = "Shop Items"
         ' 
         ' AddItemToolStripMenuItem
         ' 
         AddItemToolStripMenuItem.Name = "AddItemToolStripMenuItem"
-        AddItemToolStripMenuItem.Size = New Size(167, 22)
+        AddItemToolStripMenuItem.Size = New Size(180, 22)
         AddItemToolStripMenuItem.Text = "Add Item"
         ' 
         ' EditItemToolStripMenuItem
         ' 
         EditItemToolStripMenuItem.Name = "EditItemToolStripMenuItem"
-        EditItemToolStripMenuItem.Size = New Size(167, 22)
+        EditItemToolStripMenuItem.Size = New Size(180, 22)
         EditItemToolStripMenuItem.Text = "Edit Item"
         ' 
         ' DeleteItemToolStripMenuItem
         ' 
         DeleteItemToolStripMenuItem.Name = "DeleteItemToolStripMenuItem"
-        DeleteItemToolStripMenuItem.Size = New Size(167, 22)
+        DeleteItemToolStripMenuItem.Size = New Size(180, 22)
         DeleteItemToolStripMenuItem.Text = "Delete Item"
         ' 
         ' ViewAllItemsToolStripMenuItem
         ' 
         ViewAllItemsToolStripMenuItem.Name = "ViewAllItemsToolStripMenuItem"
-        ViewAllItemsToolStripMenuItem.Size = New Size(167, 22)
+        ViewAllItemsToolStripMenuItem.Size = New Size(180, 22)
         ViewAllItemsToolStripMenuItem.Text = "View All Items"
+        ' 
+        ' SystemUsersToolStripMenuItem
+        ' 
+        SystemUsersToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {AddUserToolStripMenuItem, EditUserToolStripMenuItem, DeleteUserToolStripMenuItem, ViewAllUsersToolStripMenuItem})
+        SystemUsersToolStripMenuItem.Name = "SystemUsersToolStripMenuItem"
+        SystemUsersToolStripMenuItem.Size = New Size(180, 22)
+        SystemUsersToolStripMenuItem.Text = "System Users"
+        ' 
+        ' AddUserToolStripMenuItem
+        ' 
+        AddUserToolStripMenuItem.Name = "AddUserToolStripMenuItem"
+        AddUserToolStripMenuItem.Size = New Size(166, 22)
+        AddUserToolStripMenuItem.Text = "Add User"
+        ' 
+        ' EditUserToolStripMenuItem
+        ' 
+        EditUserToolStripMenuItem.Name = "EditUserToolStripMenuItem"
+        EditUserToolStripMenuItem.Size = New Size(166, 22)
+        EditUserToolStripMenuItem.Text = "Edit User"
+        ' 
+        ' DeleteUserToolStripMenuItem
+        ' 
+        DeleteUserToolStripMenuItem.Name = "DeleteUserToolStripMenuItem"
+        DeleteUserToolStripMenuItem.Size = New Size(166, 22)
+        DeleteUserToolStripMenuItem.Text = "Delete User"
+        ' 
+        ' ViewAllUsersToolStripMenuItem
+        ' 
+        ViewAllUsersToolStripMenuItem.Name = "ViewAllUsersToolStripMenuItem"
+        ViewAllUsersToolStripMenuItem.Size = New Size(166, 22)
+        ViewAllUsersToolStripMenuItem.Text = "View All Users"
         ' 
         ' frmNav_MainDashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(192), CByte(192), CByte(255))
+        BackgroundImage = My.Resources.Resources._1_transparent
+        BackgroundImageLayout = ImageLayout.Center
         ClientSize = New Size(800, 450)
         Controls.Add(MenuStrip1)
+        DoubleBuffered = True
         MainMenuStrip = MenuStrip1
         Name = "frmNav_MainDashboard"
         StartPosition = FormStartPosition.CenterScreen

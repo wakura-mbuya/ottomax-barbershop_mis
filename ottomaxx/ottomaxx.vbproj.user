@@ -4,6 +4,9 @@
     <Compile Update="frmNav_MainDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSettings_AddItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmSettings_AddService.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -14,6 +17,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_AddUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSettings_DeleteItem.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_DeleteService.vb">
@@ -28,6 +34,9 @@
     <Compile Update="frmSettings_DeleteUser.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSettings_EditItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmSettings_EditService.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -38,6 +47,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_EditUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSettings_ViewItems.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_ViewServices.vb">
