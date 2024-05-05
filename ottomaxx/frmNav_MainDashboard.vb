@@ -90,4 +90,36 @@
     Private Sub ViewPaymentsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewPaymentsToolStripMenuItem.Click
         frmAccounts_ViewPayments.ShowDialog()
     End Sub
+
+    Private Sub RequestLoanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RequestLoanToolStripMenuItem.Click
+        frmLoans_ApplyLoan.ShowDialog()
+    End Sub
+
+    Private Sub RepayLoanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RepayLoanToolStripMenuItem.Click
+        frmLoans_RepayLoan.ShowDialog()
+    End Sub
+
+    Private Sub ViewActiveLoansToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewActiveLoansToolStripMenuItem.Click
+        frmLoans_ViewLoans.ShowDialog()
+    End Sub
+
+    Private Sub ViewSavingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewSavingsToolStripMenuItem.Click
+        frmSavings_ViewSavings.ShowDialog()
+    End Sub
+
+    Private Sub LoanRepaymentHistoryToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LoanRepaymentHistoryToolStripMenuItem.Click
+        frmLoans_ViewLoanRepayments.ShowDialog()
+    End Sub
+
+    Private Sub AddSavingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddSavingsToolStripMenuItem.Click
+        frmSavings_DepositSavings.ShowDialog()
+    End Sub
+
+    Private Sub WithdrawSavingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles WithdrawSavingsToolStripMenuItem.Click
+        frmSavings_WithdrawSavings.ShowDialog()
+    End Sub
+
+    Private Sub ViewSavingsWithdrawalsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewSavingsWithdrawalsToolStripMenuItem.Click
+        frmSavings_ViewSavingWithdrawals.ShowDialog()
+    End Sub
 End Class

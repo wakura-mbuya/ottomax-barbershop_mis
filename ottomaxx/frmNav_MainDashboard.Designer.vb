@@ -88,6 +88,7 @@ Partial Class frmNav_MainDashboard
         EditUserToolStripMenuItem = New ToolStripMenuItem()
         DeleteUserToolStripMenuItem = New ToolStripMenuItem()
         ViewAllUsersToolStripMenuItem = New ToolStripMenuItem()
+        ViewSavingsWithdrawalsToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -270,7 +271,7 @@ Partial Class frmNav_MainDashboard
         ' 
         LoansToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {RepayLoanToolStripMenuItem, RequestLoanToolStripMenuItem, ViewActiveLoansToolStripMenuItem, LoanRepaymentHistoryToolStripMenuItem})
         LoansToolStripMenuItem.Name = "LoansToolStripMenuItem"
-        LoansToolStripMenuItem.Size = New Size(125, 22)
+        LoansToolStripMenuItem.Size = New Size(180, 22)
         LoansToolStripMenuItem.Text = "Loans"
         ' 
         ' RepayLoanToolStripMenuItem
@@ -299,27 +300,27 @@ Partial Class frmNav_MainDashboard
         ' 
         ' SavingsToolStripMenuItem
         ' 
-        SavingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewSavingsToolStripMenuItem, AddSavingsToolStripMenuItem, WithdrawSavingsToolStripMenuItem})
+        SavingsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewSavingsToolStripMenuItem, AddSavingsToolStripMenuItem, WithdrawSavingsToolStripMenuItem, ViewSavingsWithdrawalsToolStripMenuItem})
         SavingsToolStripMenuItem.Name = "SavingsToolStripMenuItem"
-        SavingsToolStripMenuItem.Size = New Size(125, 22)
+        SavingsToolStripMenuItem.Size = New Size(180, 22)
         SavingsToolStripMenuItem.Text = "Savings"
         ' 
         ' ViewSavingsToolStripMenuItem
         ' 
         ViewSavingsToolStripMenuItem.Name = "ViewSavingsToolStripMenuItem"
-        ViewSavingsToolStripMenuItem.Size = New Size(192, 22)
+        ViewSavingsToolStripMenuItem.Size = New Size(246, 22)
         ViewSavingsToolStripMenuItem.Text = "View Savings"
         ' 
         ' AddSavingsToolStripMenuItem
         ' 
         AddSavingsToolStripMenuItem.Name = "AddSavingsToolStripMenuItem"
-        AddSavingsToolStripMenuItem.Size = New Size(192, 22)
+        AddSavingsToolStripMenuItem.Size = New Size(246, 22)
         AddSavingsToolStripMenuItem.Text = "Deposit Savings"
         ' 
         ' WithdrawSavingsToolStripMenuItem
         ' 
         WithdrawSavingsToolStripMenuItem.Name = "WithdrawSavingsToolStripMenuItem"
-        WithdrawSavingsToolStripMenuItem.Size = New Size(192, 22)
+        WithdrawSavingsToolStripMenuItem.Size = New Size(246, 22)
         WithdrawSavingsToolStripMenuItem.Text = "Withdraw Savings"
         ' 
         ' AccountsToolStripMenuItem
@@ -334,7 +335,7 @@ Partial Class frmNav_MainDashboard
         ' 
         CashboxToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ViewCashboxHistoryToolStripMenuItem, UpdateCashboxToolStripMenuItem})
         CashboxToolStripMenuItem.Name = "CashboxToolStripMenuItem"
-        CashboxToolStripMenuItem.Size = New Size(180, 22)
+        CashboxToolStripMenuItem.Size = New Size(174, 22)
         CashboxToolStripMenuItem.Text = "Cashbox"
         ' 
         ' ViewCashboxHistoryToolStripMenuItem
@@ -352,7 +353,7 @@ Partial Class frmNav_MainDashboard
         ' ViewPaymentsToolStripMenuItem
         ' 
         ViewPaymentsToolStripMenuItem.Name = "ViewPaymentsToolStripMenuItem"
-        ViewPaymentsToolStripMenuItem.Size = New Size(180, 22)
+        ViewPaymentsToolStripMenuItem.Size = New Size(174, 22)
         ViewPaymentsToolStripMenuItem.Text = "View Payments"
         ' 
         ' SettingsToolStripMenuItem
@@ -518,6 +519,12 @@ Partial Class frmNav_MainDashboard
         ViewAllUsersToolStripMenuItem.Size = New Size(166, 22)
         ViewAllUsersToolStripMenuItem.Text = "View All Users"
         ' 
+        ' ViewSavingsWithdrawalsToolStripMenuItem
+        ' 
+        ViewSavingsWithdrawalsToolStripMenuItem.Name = "ViewSavingsWithdrawalsToolStripMenuItem"
+        ViewSavingsWithdrawalsToolStripMenuItem.Size = New Size(246, 22)
+        ViewSavingsWithdrawalsToolStripMenuItem.Text = "View Savings Withdrawals"
+        ' 
         ' frmNav_MainDashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -605,5 +612,6 @@ Partial Class frmNav_MainDashboard
     Friend WithEvents DeleteUserToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ViewAllUsersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ViewAllItemsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ViewSavingsWithdrawalsToolStripMenuItem As ToolStripMenuItem
 
 End Class

@@ -10,7 +10,31 @@
     <Compile Update="frmAccounts_ViewPayments.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmLoans_ApplyLoan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmLoans_RepayLoan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmLoans_ViewLoanRepayments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmLoans_ViewLoans.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmNav_MainDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSavings_DepositSavings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSavings_ViewSavings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSavings_ViewSavingWithdrawals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSavings_WithdrawSavings.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettings_AddItem.vb">
